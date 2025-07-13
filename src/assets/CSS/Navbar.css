@@ -1,0 +1,25 @@
+/* Base styles */
+.desktop-menu {
+  display: flex;
+}
+
+.mobile-menu-icon,
+.mobile-menu {
+  display: none;
+}
+
+/* For screens less than 1000px */
+@media (max-width: 1000px) {
+  .desktop-menu {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+  }
+}
