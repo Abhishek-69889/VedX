@@ -13,7 +13,7 @@ const LandingPage = () => {
     backgroundRepeat: 'no-repeat',
   }}
 >
-  <div className="absolute inset-0 backdrop-blur-sm bg-black/10 z-0" />
+  <div className="absolute inset-0 backdrop-blur-sm bg-black/ z-0" />
 
   <div className="relative z-10">
     <h1 className="text-4xl sm:text-3xl font-extrabold mb-4 text-white tracking-tight">
