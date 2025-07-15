@@ -21,10 +21,6 @@ function App() {
 
   return (
     <Router>
-      <div className={`w-full z-50 ${isFixed ? 'fixed top-0 shadow-md' : 'relative'} transition-all duration-500 ease-in-out`}>
-        {/* <Navbar /> */}
-      </div>
-
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/html-notes" element={<HtmlNotes />} />

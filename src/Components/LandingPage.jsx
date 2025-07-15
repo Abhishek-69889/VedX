@@ -1,4 +1,3 @@
-// src/Pages/LandingPage.jsx
 import React from 'react';
 import Navbar from "../Pages/Navbar"
 import landing_image from '../assets/E-learning.jpg';
