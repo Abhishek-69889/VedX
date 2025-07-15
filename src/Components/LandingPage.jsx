@@ -2,12 +2,12 @@
 import React from 'react';
 import Navbar from "../Pages/Navbar"
 import landing_image from '../assets/E-learning.jpg';
-import NotesSection from '../Components/sections/NotesSection';
-import DsaSection from '../Components/sections/DsaSection';
-import QuizSection from '../components/sections/QuizSection';
-import StudyMaterialSection from '../Components/sections/StudyMaterialSection';
-import CsFundamentalsSection from '../Components/sections/CsFundamentalsSection';
-import RoadmapSection from '../Components/sections/RoadmapSection';
+import NotesSection from './sections/NotesSection';
+import DsaSection from './sections/DsaSection';
+import QuizSection from './sections/QuizSection';
+import StudyMaterialSection from './sections/StudyMaterialSection';
+import CsFundamentalsSection from './sections/CsFundamentalsSection';
+import RoadmapSection from './sections/RoadmapSection';
 
 const LandingPage = () => {
   const handleCardClick = (sectionId, title) => {
