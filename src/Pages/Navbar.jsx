@@ -7,19 +7,19 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Notes', href: '#notes' },
     { name: 'DSA', href: '#dsa' },
-    { name: 'Development', href: '#development' },
-    { name: 'Languages', href: '#languages' },
-    { name: 'Roadmaps', href: '#roadmap' },
-    { name: 'Resources', href: '#resources' },
-    { name: 'CS', href: '#cs' },
+    { name: 'Quize', href: '#quiz' },
+    // { name: 'Languages', href: '#languages' },
+    // { name: 'Roadmaps', href: '#roadmap' },
+    // { name: 'Resources', href: '#resources' },
+    // { name: 'CS', href: '#cs' },
   ];
 
   return (
-    <nav className="flex items-center justify-between px-6 py-4 bg-white shadow-md transition relative">
+    <nav className="flex items-center justify-around px-6 py-4 bg-white shadow-md transition relative">
       <div className="text-2xl font-bold text-blue-600">Trackmycode</div>
 
       {/* Desktop Menu */}
-      <ul className="desktop-menu gap-6 text-sm font-medium text-gray-800">
+      <ul className="desktop-menu gap-6 text-lg font-semibold text-gray-800">
         {navLinks.map((link) => (
           <li key={link.name}>
             <a href={link.href} className="hover:text-blue-600">
@@ -29,7 +29,7 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <div className="flex items-center gap-4">
+      {/* <div className="flex items-center gap-4">
         <button className="text-lg cursor-pointer text-gray-800 hover:text-blue-600 desktop-menu">
           Login
         </button>
@@ -43,7 +43,7 @@ const Navbar = () => {
         >
           {menuOpen ? <FaTimes /> : <FaBars />}
         </button>
-      </div>
+      </div> */}
 
       {menuOpen && (
         <div className="mobile-menu absolute top-full left-0 w-full bg-white shadow-md z-50 flex flex-col items-start px-6 py-4 text-sm font-medium text-gray-800">
@@ -57,12 +57,12 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
-          <button
+          {/* <button
             className="mt-3 text-left text-lg text-gray-800 hover:text-blue-600"
             onClick={() => setMenuOpen(false)}
           >
             Login
-          </button>
+          </button> */}
         </div>
       )}
     </nav>

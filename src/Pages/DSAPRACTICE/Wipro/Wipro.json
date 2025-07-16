@@ -1,0 +1,150 @@
+[
+  {
+    "tag": "Arrays",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 1, "title": "Find Maximum in Array", "link": "#" },
+          { "id": 2, "title": "Find Minimum in Array", "link": "#" },
+          { "id": 3, "title": "Calculate Sum of Array", "link": "#" },
+          { "id": 4, "title": "Reverse an Array", "link": "https://leetcode.com/problems/reverse-string/" },
+          { "id": 5, "title": "Count Even and Odd Numbers", "link": "#" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 6, "title": "Rotate Array by K Positions", "link": "https://leetcode.com/problems/rotate-array/" },
+          { "id": 7, "title": "Find Duplicate in Array", "link": "https://leetcode.com/problems/find-the-duplicate-number/" },
+          { "id": 8, "title": "Find Missing Number in Array", "link": "#" },
+          { "id": 9, "title": "Find Second Largest Element", "link": "#" },
+          { "id": 10, "title": "Sort Array Without Built-in Function", "link": "#" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Strings",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 11, "title": "Check Palindrome String", "link": "https://leetcode.com/problems/valid-palindrome/" },
+          { "id": 12, "title": "Count Vowels in String", "link": "#" },
+          { "id": 13, "title": "Reverse String", "link": "https://leetcode.com/problems/reverse-string/" },
+          { "id": 14, "title": "Toggle Case of String", "link": "#" },
+          { "id": 15, "title": "Check if Two Strings are Equal", "link": "#" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 16, "title": "Check Anagram", "link": "https://leetcode.com/problems/valid-anagram/" },
+          { "id": 17, "title": "Find Longest Word in Sentence", "link": "#" },
+          { "id": 18, "title": "Count Frequency of Characters", "link": "#" },
+          { "id": 19, "title": "Remove All Duplicate Characters", "link": "#" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Patterns",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 20, "title": "Print Right-Angle Triangle of *", "link": "#" },
+          { "id": 21, "title": "Print Number Pyramid", "link": "#" },
+          { "id": 22, "title": "Print Inverted Star Triangle", "link": "#" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 23, "title": "Print Diamond Pattern", "link": "#" },
+          { "id": 24, "title": "Print Pascal’s Triangle", "link": "#" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Searching & Sorting",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 25, "title": "Linear Search", "link": "#" },
+          { "id": 26, "title": "Binary Search", "link": "https://leetcode.com/problems/binary-search/" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 27, "title": "Bubble Sort", "link": "#" },
+          { "id": 28, "title": "Selection Sort", "link": "#" },
+          { "id": 29, "title": "Insertion Sort", "link": "#" },
+          { "id": 30, "title": "Quick Sort", "link": "#" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Recursion",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 31, "title": "Factorial of Number", "link": "#" },
+          { "id": 32, "title": "Sum of Digits", "link": "#" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 33, "title": "Generate Fibonacci Series", "link": "#" },
+          { "id": 34, "title": "Find Power using Recursion", "link": "#" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Linked List",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 35, "title": "Reverse a Linked List", "link": "https://leetcode.com/problems/reverse-linked-list/" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 36, "title": "Merge Two Sorted Lists", "link": "https://leetcode.com/problems/merge-two-sorted-lists/" },
+          { "id": 37, "title": "Detect Cycle in Linked List", "link": "https://leetcode.com/problems/linked-list-cycle/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Miscellaneous",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 38, "title": "Check Prime Number", "link": "#" },
+          { "id": 39, "title": "GCD and LCM of Two Numbers", "link": "#" },
+          { "id": 40, "title": "Sum of N Natural Numbers", "link": "#" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 41, "title": "Kadane’s Algorithm (Max Subarray)", "link": "https://leetcode.com/problems/maximum-subarray/" },
+          { "id": 42, "title": "Implement Stack using Array", "link": "#" },
+          { "id": 43, "title": "Implement Queue using Array", "link": "#" }
+        ]
+      }
+    ]
+  }
+]

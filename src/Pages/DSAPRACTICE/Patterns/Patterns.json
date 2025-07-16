@@ -1,0 +1,180 @@
+[
+  {
+    "tag": "Sliding Window",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 1, "title": "Maximum Average Subarray I", "link": "https://leetcode.com/problems/maximum-average-subarray-i/" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 2, "title": "Longest Substring Without Repeating Characters", "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/" },
+          { "id": 3, "title": "Minimum Size Subarray Sum", "link": "https://leetcode.com/problems/minimum-size-subarray-sum/" },
+          { "id": 4, "title": "Permutation in String", "link": "https://leetcode.com/problems/permutation-in-string/" },
+          { "id": 5, "title": "Longest Repeating Character Replacement", "link": "https://leetcode.com/problems/longest-repeating-character-replacement/" },
+          { "id": 6, "title": "Fruit Into Baskets", "link": "https://leetcode.com/problems/fruit-into-baskets/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Two Pointers",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 7, "title": "Valid Palindrome", "link": "https://leetcode.com/problems/valid-palindrome/" },
+          { "id": 8, "title": "Squares of a Sorted Array", "link": "https://leetcode.com/problems/squares-of-a-sorted-array/" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 9, "title": "3Sum", "link": "https://leetcode.com/problems/3sum/" },
+          { "id": 10, "title": "4Sum", "link": "https://leetcode.com/problems/4sum/" },
+          { "id": 11, "title": "Container With Most Water", "link": "https://leetcode.com/problems/container-with-most-water/" },
+          { "id": 12, "title": "Remove Duplicates from Sorted Array II", "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Fast & Slow Pointers",
+    "items": [
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 13, "title": "Linked List Cycle", "link": "https://leetcode.com/problems/linked-list-cycle/" },
+          { "id": 14, "title": "Linked List Cycle II", "link": "https://leetcode.com/problems/linked-list-cycle-ii/" },
+          { "id": 15, "title": "Middle of the Linked List", "link": "https://leetcode.com/problems/middle-of-the-linked-list/" },
+          { "id": 16, "title": "Happy Number", "link": "https://leetcode.com/problems/happy-number/" },
+          { "id": 17, "title": "Find the Duplicate Number", "link": "https://leetcode.com/problems/find-the-duplicate-number/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Merge Intervals",
+    "items": [
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 18, "title": "Merge Intervals", "link": "https://leetcode.com/problems/merge-intervals/" },
+          { "id": 19, "title": "Insert Interval", "link": "https://leetcode.com/problems/insert-interval/" },
+          { "id": 20, "title": "Non-overlapping Intervals", "link": "https://leetcode.com/problems/non-overlapping-intervals/" },
+          { "id": 21, "title": "Meeting Rooms II", "link": "https://leetcode.com/problems/meeting-rooms-ii/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Binary Search on Answer",
+    "items": [
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 22, "title": "Capacity to Ship Packages Within D Days", "link": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/" },
+          { "id": 23, "title": "Koko Eating Bananas", "link": "https://leetcode.com/problems/koko-eating-bananas/" },
+          { "id": 24, "title": "Split Array Largest Sum", "link": "https://leetcode.com/problems/split-array-largest-sum/" },
+          { "id": 25, "title": "Minimum Limit of Balls in a Bag", "link": "https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/" },
+          { "id": 26, "title": "Find the Smallest Divisor Given a Threshold", "link": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Top K Elements (Heap)",
+    "items": [
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 27, "title": "Kth Largest Element in an Array", "link": "https://leetcode.com/problems/kth-largest-element-in-an-array/" },
+          { "id": 28, "title": "Top K Frequent Elements", "link": "https://leetcode.com/problems/top-k-frequent-elements/" },
+          { "id": 29, "title": "Find Median from Data Stream", "link": "https://leetcode.com/problems/find-median-from-data-stream/" },
+          { "id": 30, "title": "K Closest Points to Origin", "link": "https://leetcode.com/problems/k-closest-points-to-origin/" },
+          { "id": 31, "title": "Reorganize String", "link": "https://leetcode.com/problems/reorganize-string/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Prefix Sum / Difference Array",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 32, "title": "Running Sum of 1d Array", "link": "https://leetcode.com/problems/running-sum-of-1d-array/" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 33, "title": "Subarray Sum Equals K", "link": "https://leetcode.com/problems/subarray-sum-equals-k/" },
+          { "id": 34, "title": "Range Sum Query - Immutable", "link": "https://leetcode.com/problems/range-sum-query-immutable/" },
+          { "id": 35, "title": "Range Sum Query - Mutable", "link": "https://leetcode.com/problems/range-sum-query-mutable/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Backtracking",
+    "items": [
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 36, "title": "Subsets", "link": "https://leetcode.com/problems/subsets/" },
+          { "id": 37, "title": "Combination Sum", "link": "https://leetcode.com/problems/combination-sum/" },
+          { "id": 38, "title": "Word Search", "link": "https://leetcode.com/problems/word-search/" },
+          { "id": 39, "title": "Letter Combinations of a Phone Number", "link": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/" }
+        ]
+      },
+      {
+        "difficulty": "Hard",
+        "questions": [
+          { "id": 40, "title": "N-Queens", "link": "https://leetcode.com/problems/n-queens/" },
+          { "id": 41, "title": "Sudoku Solver", "link": "https://leetcode.com/problems/sudoku-solver/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Graph Traversal (BFS/DFS)",
+    "items": [
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 42, "title": "Number of Islands", "link": "https://leetcode.com/problems/number-of-islands/" },
+          { "id": 43, "title": "Clone Graph", "link": "https://leetcode.com/problems/clone-graph/" },
+          { "id": 44, "title": "Rotting Oranges", "link": "https://leetcode.com/problems/rotting-oranges/" },
+          { "id": 45, "title": "Course Schedule", "link": "https://leetcode.com/problems/course-schedule/" },
+          { "id": 46, "title": "Pacific Atlantic Water Flow", "link": "https://leetcode.com/problems/pacific-atlantic-water-flow/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Dynamic Programming",
+    "items": [
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 47, "title": "Climbing Stairs", "link": "https://leetcode.com/problems/climbing-stairs/" },
+          { "id": 48, "title": "House Robber", "link": "https://leetcode.com/problems/house-robber/" },
+          { "id": 49, "title": "Coin Change", "link": "https://leetcode.com/problems/coin-change/" },
+          { "id": 50, "title": "Unique Paths", "link": "https://leetcode.com/problems/unique-paths/" }
+        ]
+      },
+      {
+        "difficulty": "Hard",
+        "questions": [
+          { "id": 51, "title": "Longest Increasing Subsequence", "link": "https://leetcode.com/problems/longest-increasing-subsequence/" },
+          { "id": 52, "title": "Edit Distance", "link": "https://leetcode.com/problems/edit-distance/" },
+          { "id": 53, "title": "Word Break II", "link": "https://leetcode.com/problems/word-break-ii/" }
+        ]
+      }
+    ]
+  }
+]

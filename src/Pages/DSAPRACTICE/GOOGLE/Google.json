@@ -1,0 +1,192 @@
+[
+  {
+    "tag": "Array & Two Pointers",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 1, "title": "Two Sum", "link": "https://leetcode.com/problems/two-sum/" },
+          { "id": 2, "title": "Merge Sorted Array", "link": "https://leetcode.com/problems/merge-sorted-array/" },
+          { "id": 3, "title": "Remove Duplicates from Sorted Array", "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/" },
+          { "id": 4, "title": "Search Insert Position", "link": "https://leetcode.com/problems/search-insert-position/" },
+          { "id": 5, "title": "Best Time to Buy and Sell Stock", "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" },
+          { "id": 6, "title": "Contains Duplicate", "link": "https://leetcode.com/problems/contains-duplicate/" },
+          { "id": 7, "title": "Set Matrix Zeroes", "link": "https://leetcode.com/problems/set-matrix-zeroes/" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 8, "title": "Median of Two Sorted Arrays", "link": "https://leetcode.com/problems/median-of-two-sorted-arrays/" },
+          { "id": 9, "title": "Move Pieces to Obtain a String", "link": "https://leetcode.com/problems/move-pieces-to-obtain-a-string/" },
+          { "id": 10, "title": "Continuous Subarrays", "link": "https://leetcode.com/problems/continuous-subarrays/" },
+          { "id": 11, "title": "Maximum Beauty of an Array After Applying Operation", "link": "https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/" },
+          { "id": 12, "title": "Next Permutation", "link": "https://leetcode.com/problems/next-permutation/" },
+          { "id": 13, "title": "Spiral Matrix", "link": "https://leetcode.com/problems/spiral-matrix/" },
+          { "id": 14, "title": "Product of Array Except Self", "link": "https://leetcode.com/problems/product-of-array-except-self/" },
+          { "id": 15, "title": "Container With Most Water", "link": "https://leetcode.com/problems/container-with-most-water/" }
+        ]
+      },
+      {
+        "difficulty": "Hard",
+        "questions": [
+          { "id": 16, "title": "Trapping Rain Water", "link": "https://leetcode.com/problems/trapping-rain-water/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Strings",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 17, "title": "Merge Strings Alternately", "link": "https://leetcode.com/problems/merge-strings-alternately/" },
+          { "id": 18, "title": "Longest Common Prefix", "link": "https://leetcode.com/problems/longest-common-prefix/" },
+          { "id": 19, "title": "Valid Anagram", "link": "https://leetcode.com/problems/valid-anagram/" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 20, "title": "Longest Substring Without Repeating Characters", "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/" },
+          { "id": 21, "title": "Find the Index of the First Occurrence in a String", "link": "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/" },
+          { "id": 22, "title": "Zigzag Conversion", "link": "https://leetcode.com/problems/zigzag-conversion/" },
+          { "id": 23, "title": "Construct String With Repeat Limit", "link": "https://leetcode.com/problems/construct-string-with-repeat-limit/" },
+          { "id": 24, "title": "Word Break", "link": "https://leetcode.com/problems/word-break/" },
+          { "id": 25, "title": "Word Search", "link": "https://leetcode.com/problems/word-search/" },
+          { "id": 26, "title": "Minimum Window Substring", "link": "https://leetcode.com/problems/minimum-window-substring/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Linked List",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 27, "title": "Merge Two Sorted Lists", "link": "https://leetcode.com/problems/merge-two-sorted-lists/" },
+          { "id": 28, "title": "Reverse Linked List", "link": "https://leetcode.com/problems/reverse-linked-list/" },
+          { "id": 29, "title": "Middle of the Linked List", "link": "https://leetcode.com/problems/middle-of-the-linked-list/" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 30, "title": "Add Two Numbers", "link": "https://leetcode.com/problems/add-two-numbers/" },
+          { "id": 31, "title": "Remove Nth Node From End of List", "link": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/" },
+          { "id": 32, "title": "Linked List Cycle", "link": "https://leetcode.com/problems/linked-list-cycle/" },
+          { "id": 33, "title": "Linked List Cycle II", "link": "https://leetcode.com/problems/linked-list-cycle-ii/" },
+          { "id": 34, "title": "Copy List with Random Pointer", "link": "https://leetcode.com/problems/copy-list-with-random-pointer/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Binary Search",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 35, "title": "Binary Search", "link": "https://leetcode.com/problems/binary-search/" },
+          { "id": 36, "title": "Sqrt(x)", "link": "https://leetcode.com/problems/sqrtx/" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 37, "title": "Find Peak Element", "link": "https://leetcode.com/problems/find-peak-element/" },
+          { "id": 38, "title": "Search in Rotated Sorted Array", "link": "https://leetcode.com/problems/search-in-rotated-sorted-array/" },
+          { "id": 39, "title": "Search a 2D Matrix", "link": "https://leetcode.com/problems/search-a-2d-matrix/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Trees & Graphs",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 40, "title": "Invert Binary Tree", "link": "https://leetcode.com/problems/invert-binary-tree/" },
+          { "id": 41, "title": "Maximum Depth of Binary Tree", "link": "https://leetcode.com/problems/maximum-depth-of-binary-tree/" },
+          { "id": 42, "title": "Symmetric Tree", "link": "https://leetcode.com/problems/symmetric-tree/" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 43, "title": "Number of Islands", "link": "https://leetcode.com/problems/number-of-islands/" },
+          { "id": 44, "title": "Validate Binary Search Tree", "link": "https://leetcode.com/problems/validate-binary-search-tree/" },
+          { "id": 45, "title": "Convert Sorted Array to BST", "link": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/" },
+          { "id": 46, "title": "Kth Smallest Element in a BST", "link": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/" },
+          { "id": 47, "title": "Construct Binary Tree from Preorder and Inorder Traversal", "link": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/" },
+          { "id": 48, "title": "Binary Tree Zigzag Level Order Traversal", "link": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/" },
+          { "id": 49, "title": "Course Schedule", "link": "https://leetcode.com/problems/course-schedule/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Heap & Priority Queue",
+    "items": [
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 50, "title": "Kth Largest Element in an Array", "link": "https://leetcode.com/problems/kth-largest-element-in-an-array/" },
+          { "id": 51, "title": "Find Median from Data Stream", "link": "https://leetcode.com/problems/find-median-from-data-stream/" },
+          { "id": 52, "title": "Top K Frequent Elements", "link": "https://leetcode.com/problems/top-k-frequent-elements/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Hashing",
+    "items": [
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 53, "title": "Subarray Sum Equals K", "link": "https://leetcode.com/problems/subarray-sum-equals-k/" },
+          { "id": 54, "title": "Group Anagrams", "link": "https://leetcode.com/problems/group-anagrams/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Backtracking",
+    "items": [
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 55, "title": "Generate Parentheses", "link": "https://leetcode.com/problems/generate-parentheses/" },
+          { "id": 56, "title": "Combination Sum", "link": "https://leetcode.com/problems/combination-sum/" },
+          { "id": 57, "title": "N-Queens", "link": "https://leetcode.com/problems/n-queens/" },
+          { "id": 58, "title": "Letter Combinations of a Phone Number", "link": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Dynamic Programming",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 59, "title": "Climbing Stairs", "link": "https://leetcode.com/problems/climbing-stairs/" },
+          { "id": 60, "title": "House Robber", "link": "https://leetcode.com/problems/house-robber/" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 61, "title": "Coin Change", "link": "https://leetcode.com/problems/coin-change/" },
+          { "id": 62, "title": "Longest Palindromic Substring", "link": "https://leetcode.com/problems/longest-palindromic-substring/" },
+          { "id": 63, "title": "Maximal Square", "link": "https://leetcode.com/problems/maximal-square/" },
+          { "id": 64, "title": "Jump Game II", "link": "https://leetcode.com/problems/jump-game-ii/" },
+          { "id": 65, "title": "Unique Paths", "link": "https://leetcode.com/problems/unique-paths/" }
+        ]
+      }
+    ]
+  }
+]

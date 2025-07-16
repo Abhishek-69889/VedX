@@ -1,0 +1,156 @@
+[
+  {
+    "tag": "Arrays & Two Pointers",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 1, "title": "Two Sum", "link": "https://leetcode.com/problems/two-sum/" },
+          { "id": 2, "title": "Merge Sorted Array", "link": "https://leetcode.com/problems/merge-sorted-array/" },
+          { "id": 3, "title": "Remove Element", "link": "https://leetcode.com/problems/remove-element/" },
+          { "id": 4, "title": "Merge Strings Alternately", "link": "https://leetcode.com/problems/merge-strings-alternately/" },
+          { "id": 5, "title": "Palindrome Number", "link": "https://leetcode.com/problems/palindrome-number/" },
+          { "id": 6, "title": "Longest Common Prefix", "link": "https://leetcode.com/problems/longest-common-prefix/" },
+          { "id": 7, "title": "Best Time to Buy and Sell Stock", "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" },
+          { "id": 8, "title": "Single Number", "link": "https://leetcode.com/problems/single-number/" },
+          { "id": 9, "title": "Move Zeroes", "link": "https://leetcode.com/problems/move-zeroes/" },
+          { "id": 10, "title": "Flood Fill", "link": "https://leetcode.com/problems/flood-fill/" },
+          { "id": 11, "title": "Majority Element", "link": "https://leetcode.com/problems/majority-element/" },
+          { "id": 12, "title": "Isomorphic Strings", "link": "https://leetcode.com/problems/isomorphic-strings/" },
+          { "id": 13, "title": "Remove All Adjacent Duplicates In String", "link": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/" },
+          { "id": 14, "title": "Check If N and Its Double Exist", "link": "https://leetcode.com/problems/check-if-n-and-its-double-exist/" },
+          { "id": 15, "title": "Check If a Word Occurs As a Prefix", "link": "https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 16, "title": "Longest Substring Without Repeating Characters", "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/" },
+          { "id": 17, "title": "Maximum Subarray", "link": "https://leetcode.com/problems/maximum-subarray/" },
+          { "id": 18, "title": "Subarray Sum Equals K", "link": "https://leetcode.com/problems/subarray-sum-equals-k/" },
+          { "id": 19, "title": "Koko Eating Bananas", "link": "https://leetcode.com/problems/koko-eating-bananas/" },
+          { "id": 20, "title": "Search in Rotated Sorted Array", "link": "https://leetcode.com/problems/search-in-rotated-sorted-array/" },
+          { "id": 21, "title": "Spiral Matrix", "link": "https://leetcode.com/problems/spiral-matrix/" },
+          { "id": 22, "title": "House Robber", "link": "https://leetcode.com/problems/house-robber/" },
+          { "id": 23, "title": "House Robber II", "link": "https://leetcode.com/problems/house-robber-ii/" },
+          { "id": 24, "title": "Flip Columns For Maximum Equal Rows", "link": "https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows/" },
+          { "id": 25, "title": "Two Sum II - Input Array Is Sorted", "link": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/" }
+        ]
+      },
+      {
+        "difficulty": "Hard",
+        "questions": [
+          { "id": 26, "title": "Median of Two Sorted Arrays", "link": "https://leetcode.com/problems/median-of-two-sorted-arrays/" },
+          { "id": 27, "title": "4Sum", "link": "https://leetcode.com/problems/4sum/" },
+          { "id": 28, "title": "Alien Dictionary", "link": "https://leetcode.com/problems/alien-dictionary/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Linked List & Design",
+    "items": [
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 29, "title": "LRU Cache", "link": "https://leetcode.com/problems/lru-cache/" },
+          { "id": 30, "title": "Copy List with Random Pointer", "link": "https://leetcode.com/problems/copy-list-with-random-pointer/" },
+          { "id": 31, "title": "Merge k Sorted Lists", "link": "https://leetcode.com/problems/merge-k-sorted-lists/" },
+          { "id": 32, "title": "Add Two Numbers", "link": "https://leetcode.com/problems/add-two-numbers/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Trees & Graphs",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 33, "title": "Symmetric Tree", "link": "https://leetcode.com/problems/symmetric-tree/" },
+          { "id": 34, "title": "Invert Binary Tree", "link": "https://leetcode.com/problems/invert-binary-tree/" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 35, "title": "Binary Tree Level Order Traversal", "link": "https://leetcode.com/problems/binary-tree-level-order-traversal/" },
+          { "id": 36, "title": "Lowest Common Ancestor of BST", "link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/" },
+          { "id": 37, "title": "Validate Binary Search Tree", "link": "https://leetcode.com/problems/validate-binary-search-tree/" },
+          { "id": 38, "title": "Number of Islands", "link": "https://leetcode.com/problems/number-of-islands/" }
+        ]
+      },
+      {
+        "difficulty": "Hard",
+        "questions": [
+          { "id": 39, "title": "Serialize and Deserialize Binary Tree", "link": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Dynamic Programming",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 40, "title": "Climbing Stairs", "link": "https://leetcode.com/problems/climbing-stairs/" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 41, "title": "Unique Paths", "link": "https://leetcode.com/problems/unique-paths/" },
+          { "id": 42, "title": "Jump Game", "link": "https://leetcode.com/problems/jump-game/" },
+          { "id": 43, "title": "Coin Change", "link": "https://leetcode.com/problems/coin-change/" },
+          { "id": 44, "title": "Word Break", "link": "https://leetcode.com/problems/word-break/" },
+          { "id": 45, "title": "Longest Palindromic Substring", "link": "https://leetcode.com/problems/longest-palindromic-substring/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Backtracking",
+    "items": [
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 46, "title": "Generate Parentheses", "link": "https://leetcode.com/problems/generate-parentheses/" },
+          { "id": 47, "title": "Combination Sum", "link": "https://leetcode.com/problems/combination-sum/" },
+          { "id": 48, "title": "Letter Combinations of a Phone Number", "link": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/" }
+        ]
+      },
+      {
+        "difficulty": "Hard",
+        "questions": [
+          { "id": 49, "title": "N-Queens", "link": "https://leetcode.com/problems/n-queens/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Heap & Priority Queue",
+    "items": [
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 50, "title": "Top K Frequent Elements", "link": "https://leetcode.com/problems/top-k-frequent-elements/" },
+          { "id": 51, "title": "Kth Largest Element in an Array", "link": "https://leetcode.com/problems/kth-largest-element-in-an-array/" },
+          { "id": 52, "title": "Find Median from Data Stream", "link": "https://leetcode.com/problems/find-median-from-data-stream/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Hashing",
+    "items": [
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 53, "title": "Group Anagrams", "link": "https://leetcode.com/problems/group-anagrams/" },
+          { "id": 54, "title": "Valid Anagram", "link": "https://leetcode.com/problems/valid-anagram/" }
+        ]
+      }
+    ]
+  }
+]

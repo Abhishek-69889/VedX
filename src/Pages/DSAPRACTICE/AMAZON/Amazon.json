@@ -1,0 +1,109 @@
+[
+  {
+    "tag": "Arrays & Two Pointers",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 1, "title": "Two Sum", "link": "https://leetcode.com/problems/two-sum/" },
+          { "id": 2, "title": "Merge Sorted Array", "link": "https://leetcode.com/problems/merge-sorted-array/" },
+          { "id": 3, "title": "Best Time to Buy and Sell Stock", "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 4, "title": "Trapping Rain Water", "link": "https://leetcode.com/problems/trapping-rain-water/" },
+          { "id": 5, "title": "Task Scheduler", "link": "https://leetcode.com/problems/task-scheduler/" },
+          { "id": 6, "title": "3Sum", "link": "https://leetcode.com/problems/3sum/" },
+          { "id": 7, "title": "Subarray Sum Equals K", "link": "https://leetcode.com/problems/subarray-sum-equals-k/" },
+          { "id": 8, "title": "Top K Frequent Elements", "link": "https://leetcode.com/problems/top-k-frequent-elements/" },
+          { "id": 9, "title": "Kth Largest Element in an Array", "link": "https://leetcode.com/problems/kth-largest-element-in-an-array/" }
+        ]
+      },
+      {
+        "difficulty": "Hard",
+        "questions": [
+          { "id": 10, "title": "Median of Two Sorted Arrays", "link": "https://leetcode.com/problems/median-of-two-sorted-arrays/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Strings",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 11, "title": "Merge Strings Alternately", "link": "https://leetcode.com/problems/merge-strings-alternately/" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 12, "title": "Reorganize String", "link": "https://leetcode.com/problems/reorganize-string/" },
+          { "id": 13, "title": "Minimum Window Substring", "link": "https://leetcode.com/problems/minimum-window-substring/" }
+        ]
+      },
+      {
+        "difficulty": "Hard",
+        "questions": [
+          { "id": 14, "title": "Integer to English Words", "link": "https://leetcode.com/problems/integer-to-english-words/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Linked List & Design",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 15, "title": "Implement Queue using Stacks", "link": "https://leetcode.com/problems/implement-queue-using-stacks/" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 16, "title": "Merge k Sorted Lists", "link": "https://leetcode.com/problems/merge-k-sorted-lists/" },
+          { "id": 17, "title": "Copy List with Random Pointer", "link": "https://leetcode.com/problems/copy-list-with-random-pointer/" },
+          { "id": 18, "title": "LFU Cache", "link": "https://leetcode.com/problems/lfu-cache/" },
+          { "id": 19, "title": "LRU Cache", "link": "https://leetcode.com/problems/lru-cache/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Trees & Graphs",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 20, "title": "Number of Islands", "link": "https://leetcode.com/problems/number-of-islands/" },
+          { "id": 21, "title": "Rotting Oranges", "link": "https://leetcode.com/problems/rotting-oranges/" },
+          { "id": 22, "title": "All Paths From Source to Target", "link": "https://leetcode.com/problems/all-paths-from-source-to-target/" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 23, "title": "Course Schedule", "link": "https://leetcode.com/problems/course-schedule/" },
+          { "id": 24, "title": "Meeting Rooms II", "link": "https://leetcode.com/problems/meeting-rooms-ii/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Dynamic Programming",
+    "items": [
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 25, "title": "Minimum Difference in Sums After Removal of Elements", "link": "https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/" },
+          { "id": 26, "title": "Jump Game", "link": "https://leetcode.com/problems/jump-game/" },
+          { "id": 27, "title": "Coin Change", "link": "https://leetcode.com/problems/coin-change/" }
+        ]
+      }
+    ]
+  }
+]

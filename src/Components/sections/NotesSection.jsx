@@ -1,11 +1,18 @@
-// src/components/sections/NotesSection.jsx
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const frontendSubtopics = ['HTML', 'CSS', 'JavaScript', 'React'];
 
 const NotesSection = ({ onCardClick }) => {
-  const items = ['DSA', 'Frontend', 'Backend', 'Python', 'C++'];
+  const items = [
+    // 'DSA', 
+    'Frontend', 
+    // 'Backend', 
+    // 'Python', 
+    // 'C++'
+  ];
   const [showFrontendPopup, setShowFrontendPopup] = useState(false);
+  const navigate = useNavigate();
 
   const openFrontendPopup = () => setShowFrontendPopup(true);
   const closeFrontendPopup = () => setShowFrontendPopup(false);
@@ -13,7 +20,16 @@ const NotesSection = ({ onCardClick }) => {
   const handleCardClickInternal = (sectionId, title) => {
     if (sectionId === 'notes' && title === 'Frontend') {
       openFrontendPopup();
-    } else {
+    }else if (sectionId === 'notes' && title === 'DSA') {
+    navigate('/dsa-notes');
+    }else if (sectionId === 'notes' && title === 'Backend') {
+    navigate('/backend-notes');
+    }else if (sectionId === 'notes' && title === 'Python') {
+    navigate('/python-notes');
+    }else if (sectionId === 'notes' && title === 'C++') {
+    navigate('/cpp-notes');
+    }
+     else {
       onCardClick(sectionId, title);
     }
   };

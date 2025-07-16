@@ -51,9 +51,9 @@ const LandingPage = () => {
       <DsaSection onCardClick={handleCardClick} />
       <QuizSection onCardClick={handleCardClick} />
       {/* Optional future section: <ProgrammingLanguagesSection onCardClick={handleCardClick} /> */}
-      <StudyMaterialSection onCardClick={handleCardClick} />
-      <CsFundamentalsSection onCardClick={handleCardClick} />
-      <RoadmapSection onCardClick={handleCardClick} />
+      {/* <StudyMaterialSection onCardClick={handleCardClick} /> */}
+      {/* <CsFundamentalsSection onCardClick={handleCardClick} /> */}
+      {/* <RoadmapSection onCardClick={handleCardClick} /> */}
 
       {/* Footer */}
       <footer className="text-center py-6 mt-10 text-gray-600 text-sm bg-white border-t">

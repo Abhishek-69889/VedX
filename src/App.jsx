@@ -7,6 +7,19 @@ import HtmlNotes from './Pages/Notes/Frontend/HTML/Content';
 import CssNotes from './Pages/Notes/Frontend/CSS/Content'; 
 import JsNotes from './Pages/Notes/Frontend/JS/Content'; 
 import ReactNotes from './Pages/Notes/Frontend/react/Content'; 
+import Google from './Pages/DSAPRACTICE/GOOGLE/Google';
+import Amazon from './Pages/DSAPRACTICE/AMAZON/Amazon';
+import Microsoft from './Pages/DSAPRACTICE/Microsoft/Microsoft';
+import Wipro from './Pages/DSAPRACTICE/Wipro/Wipro';
+import Tcs from './Pages/DSAPRACTICE/TCS/Tcs';
+import Pattern from './Pages/DSAPRACTICE/Patterns/Pattern';
+// import DSANotes from './Pages/Notes/DSA/Content'; 
+// import PythonNotes from './Pages/Notes/Python/Content'; 
+// import CPPNotes from './Pages/Notes/CPP/Content'; 
+
+// DSA Practice section
+
+
 
 function App() {
   const [isFixed, setIsFixed] = useState(false);
@@ -27,7 +40,19 @@ function App() {
         <Route path="/css-notes" element={<CssNotes />} />
         <Route path="/javascript-notes" element={<JsNotes />} />
         <Route path="/react-notes" element={<ReactNotes />} />
-        {/* Add more routes as needed */}
+        {/* <Route path="/dsa-notes" element={<DSANotes />} />
+        <Route path="/python-notes" element={<PythonNotes />} />
+        <Route path="/cpp-notes" element={<CPPNotes />} /> */}
+
+
+        {/* DSA Routes */}
+
+        <Route path='/google' element={<Google/>}/>
+        <Route path='/amazon' element={<Amazon/>}/>
+        <Route path='/microsoft' element={<Microsoft/>}/>
+        <Route path='/tcs' element={<Tcs/>}/>
+        <Route path='/wipro' element={<Wipro/>}/>
+        <Route path='/patterns' element={<Pattern/>}/>
       </Routes>
     </Router>
   );

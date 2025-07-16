@@ -1,0 +1,168 @@
+[
+  {
+    "tag": "Arrays",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 1, "title": "Find the Largest Element in an Array", "link": "#" },
+          { "id": 2, "title": "Find the Smallest Element in an Array", "link": "#" },
+          { "id": 3, "title": "Sum of Array Elements", "link": "#" },
+          { "id": 4, "title": "Reverse an Array", "link": "https://leetcode.com/problems/reverse-string/" },
+          { "id": 5, "title": "Check if Array is Sorted", "link": "#" },
+          { "id": 6, "title": "Find Element in Array (Linear Search)", "link": "#" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 7, "title": "Rotate Array by K Positions", "link": "https://leetcode.com/problems/rotate-array/" },
+          { "id": 8, "title": "Move All Zeroes to End", "link": "https://leetcode.com/problems/move-zeroes/" },
+          { "id": 9, "title": "Find Duplicate in Array", "link": "https://leetcode.com/problems/find-the-duplicate-number/" },
+          { "id": 10, "title": "Find Second Largest Element", "link": "#" },
+          { "id": 11, "title": "Find Missing Number in Array", "link": "#" },
+          { "id": 12, "title": "Merge Two Sorted Arrays", "link": "https://leetcode.com/problems/merge-sorted-array/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Strings",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 13, "title": "Check Palindrome String", "link": "https://leetcode.com/problems/valid-palindrome/" },
+          { "id": 14, "title": "Count Vowels in a String", "link": "#" },
+          { "id": 15, "title": "Reverse a String", "link": "https://leetcode.com/problems/reverse-string/" },
+          { "id": 16, "title": "Remove Whitespaces from String", "link": "#" },
+          { "id": 17, "title": "Convert String to Uppercase", "link": "#" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 18, "title": "Check Anagram", "link": "https://leetcode.com/problems/valid-anagram/" },
+          { "id": 19, "title": "Longest Common Prefix", "link": "https://leetcode.com/problems/longest-common-prefix/" },
+          { "id": 20, "title": "Count Frequency of Characters", "link": "#" },
+          { "id": 21, "title": "Find First Non-Repeating Character", "link": "https://leetcode.com/problems/first-unique-character-in-a-string/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Searching & Sorting",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 22, "title": "Linear Search", "link": "#" },
+          { "id": 23, "title": "Binary Search", "link": "https://leetcode.com/problems/binary-search/" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 24, "title": "Bubble Sort", "link": "#" },
+          { "id": 25, "title": "Selection Sort", "link": "#" },
+          { "id": 26, "title": "Insertion Sort", "link": "#" },
+          { "id": 27, "title": "Merge Sort", "link": "#" },
+          { "id": 28, "title": "Quick Sort", "link": "#" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Recursion",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 29, "title": "Factorial of a Number", "link": "#" },
+          { "id": 30, "title": "Fibonacci Series", "link": "#" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 31, "title": "Sum of Digits using Recursion", "link": "#" },
+          { "id": 32, "title": "Power Function using Recursion", "link": "#" },
+          { "id": 33, "title": "Print All Subsets of a String", "link": "#" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Linked List",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 34, "title": "Reverse a Linked List", "link": "https://leetcode.com/problems/reverse-linked-list/" },
+          { "id": 35, "title": "Find Middle of Linked List", "link": "https://leetcode.com/problems/middle-of-the-linked-list/" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 36, "title": "Detect Cycle in Linked List", "link": "https://leetcode.com/problems/linked-list-cycle/" },
+          { "id": 37, "title": "Merge Two Sorted Linked Lists", "link": "https://leetcode.com/problems/merge-two-sorted-lists/" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Stacks & Queues",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 38, "title": "Implement Stack using Array", "link": "#" },
+          { "id": 39, "title": "Implement Queue using Array", "link": "#" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 40, "title": "Valid Parentheses", "link": "https://leetcode.com/problems/valid-parentheses/" },
+          { "id": 41, "title": "Implement Two Stacks in an Array", "link": "#" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Dynamic Programming",
+    "items": [
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 42, "title": "Climbing Stairs", "link": "https://leetcode.com/problems/climbing-stairs/" },
+          { "id": 43, "title": "Nth Fibonacci Using DP", "link": "#" },
+          { "id": 44, "title": "Coin Change", "link": "https://leetcode.com/problems/coin-change/" },
+          { "id": 45, "title": "Longest Common Subsequence", "link": "https://leetcode.com/problems/longest-common-subsequence/" },
+          { "id": 46, "title": "0/1 Knapsack Problem", "link": "#" }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "Miscellaneous",
+    "items": [
+      {
+        "difficulty": "Easy",
+        "questions": [
+          { "id": 47, "title": "Check Prime Number", "link": "#" },
+          { "id": 48, "title": "Greatest Common Divisor (GCD)", "link": "#" },
+          { "id": 49, "title": "LCM of Two Numbers", "link": "#" }
+        ]
+      },
+      {
+        "difficulty": "Medium",
+        "questions": [
+          { "id": 50, "title": "Kadane's Algorithm (Max Subarray Sum)", "link": "https://leetcode.com/problems/maximum-subarray/" },
+          { "id": 51, "title": "Dutch National Flag Problem", "link": "#" }
+        ]
+      }
+    ]
+  }
+]
