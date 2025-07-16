@@ -7,7 +7,7 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Notes', href: '#notes' },
     { name: 'DSA', href: '#dsa' },
-    { name: 'Quize', href: '#quiz' },
+    { name: 'Quiz', href: '#quiz' },
     // { name: 'Languages', href: '#languages' },
     // { name: 'Roadmaps', href: '#roadmap' },
     // { name: 'Resources', href: '#resources' },
