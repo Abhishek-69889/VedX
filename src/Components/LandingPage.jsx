@@ -56,9 +56,59 @@ const LandingPage = () => {
       {/* <RoadmapSection onCardClick={handleCardClick} /> */}
 
       {/* Footer */}
-      <footer className="text-center py-6 mt-10 text-gray-600 text-sm bg-white border-t">
-        Made with ❤️ by Abhishek Tiwari | © {new Date().getFullYear()}
-      </footer>
+      <footer className="bg-gray-100 border-t mt-10">
+  <div className="max-w-6xl mx-auto px-4 py-8 grid grid-cols-1 sm:grid-cols-4 gap-8 text-center sm:text-left">
+    
+    {/* Brand Section */}
+    <div>
+      <h2 className="text-lg font-semibold text-gray-800 mb-2">
+        TrackMyCode
+      </h2>
+      <p className="text-gray-600 text-sm">
+        A place to learn, grow and track mistakes and improve every day.
+      </p>
+    </div>
+
+    {/* Navigation Links */}
+    <div>
+      <h3 className="text-md font-semibold text-gray-800 mb-2">Quick Links</h3>
+      <ul className="space-y-2 text-gray-600 text-sm">
+        <li><a href="#notes" className="hover:text-gray-900">Notes</a></li>
+        <li><a href="#dsa" className="hover:text-gray-900">DSA</a></li>
+        <li><a href="#quiz" className="hover:text-gray-900">Quiz</a></li>
+      </ul>
+    </div>
+
+    {/* Tracker */}
+    <div>
+      <h3 className="text-md font-semibold text-gray-800 mb-2">Track your growth</h3>
+      <ul className="space-y-2 text-gray-600 text-sm">
+        <li><a href="https://errolog.netlify.app/" className="hover:text-gray-900">ErrorLog</a></li>
+        <li><a href="https://fronttrack.netlify.app/" className="hover:text-gray-900">FontTrack</a></li>
+        <li><a href="https://dsapractice.netlify.app/" className="hover:text-gray-900">AlgoTrack</a></li>
+      </ul>
+    </div>
+
+    {/* Social or Contact */}
+    <div>
+      <h3 className="text-md font-semibold text-gray-800 mb-2">Connect</h3>
+      <ul className="space-y-2 text-gray-600 text-sm">
+        <li><a href="https://abhishek-tportfolio.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900">Portfolio</a></li>
+        <li><a href="https://www.linkedin.com/in/abhishek-softweredeveloper/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900">LinkedIn</a></li>
+        <li><a href="mailto:abhit0396@gmail.com" className="hover:text-gray-900">Email</a></li>
+        <li><a href="https://github.com/Abhishek-69889" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900">GitHub</a></li>
+      </ul>
+    </div>
+  </div>
+
+  {/* Bottom Bar */}
+  <div className="border-t text-center text-gray-500 text-sm py-4">
+    <p>
+      Made with ❤️ by Abhishek Tiwari | © {new Date().getFullYear()} TrackMyCode. All rights reserved.
+    </p>
+  </div>
+</footer>
+
     </div>
   );
 };

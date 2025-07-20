@@ -8,9 +8,8 @@ const Navbar = () => {
     { name: 'Notes', href: '#notes' },
     { name: 'DSA', href: '#dsa' },
     { name: 'Quiz', href: '#quiz' },
-    // { name: 'Languages', href: '#languages' },
-    // { name: 'Roadmaps', href: '#roadmap' },
-    // { name: 'Resources', href: '#resources' },
+    { name: 'FrontTrack', href: 'https://fronttrack.netlify.app/' },
+    { name: 'AlgoTrack', href: 'https://dsapractice.netlify.app/' },
     // { name: 'CS', href: '#cs' },
   ];
 
@@ -29,13 +28,13 @@ const Navbar = () => {
         ))}
       </ul>
 
-      {/* <div className="flex items-center gap-4">
-        <button className="text-lg cursor-pointer text-gray-800 hover:text-blue-600 desktop-menu">
-          Login
-        </button>
-        <button className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 cursor-pointer">
-          Sign Up
-        </button>
+      <div className="flex items-center gap-4">
+        {/* <a href='https://fronttrack.netlify.app/' className="text-lg cursor-pointer text-gray-800 hover:text-blue-600 desktop-menu">
+          FrontTrack 
+        </a> */}
+        <a href='https://errolog.netlify.app/' className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 cursor-pointer">
+         ErrorLog
+        </a>
 
         <button
           className="mobile-menu-icon text-2xl text-gray-800 focus:outline-none"
@@ -43,7 +42,7 @@ const Navbar = () => {
         >
           {menuOpen ? <FaTimes /> : <FaBars />}
         </button>
-      </div> */}
+      </div>
 
       {menuOpen && (
         <div className="mobile-menu absolute top-full left-0 w-full bg-white shadow-md z-50 flex flex-col items-start px-6 py-4 text-sm font-medium text-gray-800">
