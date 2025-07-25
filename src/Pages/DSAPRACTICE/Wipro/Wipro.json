@@ -7,7 +7,7 @@
         "questions": [
           { "id": 1, "title": "Find Maximum in Array", "link": "#" },
           { "id": 2, "title": "Find Minimum in Array", "link": "#" },
-          { "id": 3, "title": "Calculate Sum of Array", "link": "#" },
+          { "id": 3, "title": "Calculate Sum of Array", "link": "https://leetcode.com/problems/running-sum-of-1d-array/" },
           { "id": 4, "title": "Reverse an Array", "link": "https://leetcode.com/problems/reverse-string/" },
           { "id": 5, "title": "Count Even and Odd Numbers", "link": "#" }
         ]
@@ -17,9 +17,9 @@
         "questions": [
           { "id": 6, "title": "Rotate Array by K Positions", "link": "https://leetcode.com/problems/rotate-array/" },
           { "id": 7, "title": "Find Duplicate in Array", "link": "https://leetcode.com/problems/find-the-duplicate-number/" },
-          { "id": 8, "title": "Find Missing Number in Array", "link": "#" },
+          { "id": 8, "title": "Find Missing Number in Array", "link": "https://leetcode.com/problems/missing-number/" },
           { "id": 9, "title": "Find Second Largest Element", "link": "#" },
-          { "id": 10, "title": "Sort Array Without Built-in Function", "link": "#" }
+          { "id": 10, "title": "Sort Array Without Built-in Function", "link": "https://leetcode.com/problems/sort-an-array/" }
         ]
       }
     ]
@@ -34,16 +34,16 @@
           { "id": 12, "title": "Count Vowels in String", "link": "#" },
           { "id": 13, "title": "Reverse String", "link": "https://leetcode.com/problems/reverse-string/" },
           { "id": 14, "title": "Toggle Case of String", "link": "#" },
-          { "id": 15, "title": "Check if Two Strings are Equal", "link": "#" }
+          { "id": 15, "title": "Check if Two Strings are Equal", "link": "https://leetcode.com/problems/are-almost-equal/" }
         ]
       },
       {
         "difficulty": "Medium",
         "questions": [
           { "id": 16, "title": "Check Anagram", "link": "https://leetcode.com/problems/valid-anagram/" },
-          { "id": 17, "title": "Find Longest Word in Sentence", "link": "#" },
-          { "id": 18, "title": "Count Frequency of Characters", "link": "#" },
-          { "id": 19, "title": "Remove All Duplicate Characters", "link": "#" }
+          { "id": 17, "title": "Find Longest Word in Sentence", "link": "https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/" },
+          { "id": 18, "title": "Count Frequency of Characters", "link": "https://leetcode.com/problems/sort-characters-by-frequency/" },
+          { "id": 19, "title": "Remove All Duplicate Characters", "link": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/" }
         ]
       }
     ]
@@ -81,10 +81,10 @@
       {
         "difficulty": "Medium",
         "questions": [
-          { "id": 27, "title": "Bubble Sort", "link": "#" },
-          { "id": 28, "title": "Selection Sort", "link": "#" },
-          { "id": 29, "title": "Insertion Sort", "link": "#" },
-          { "id": 30, "title": "Quick Sort", "link": "#" }
+          { "id": 27, "title": "Bubble Sort", "link": "https://leetcode.com/problems/sort-an-array/" },
+          { "id": 28, "title": "Selection Sort", "link": "https://leetcode.com/problems/sort-an-array/" },
+          { "id": 29, "title": "Insertion Sort", "link": "https://leetcode.com/problems/sort-an-array/" },
+          { "id": 30, "title": "Quick Sort", "link": "https://leetcode.com/problems/sort-an-array/" }
         ]
       }
     ]
@@ -95,15 +95,15 @@
       {
         "difficulty": "Easy",
         "questions": [
-          { "id": 31, "title": "Factorial of Number", "link": "#" },
+          { "id": 31, "title": "Factorial of Number", "link": "https://leetcode.com/problems/factorial-trailing-zeroes/" },
           { "id": 32, "title": "Sum of Digits", "link": "#" }
         ]
       },
       {
         "difficulty": "Medium",
         "questions": [
-          { "id": 33, "title": "Generate Fibonacci Series", "link": "#" },
-          { "id": 34, "title": "Find Power using Recursion", "link": "#" }
+          { "id": 33, "title": "Generate Fibonacci Series", "link": "https://leetcode.com/problems/fibonacci-number/" },
+          { "id": 34, "title": "Find Power using Recursion", "link": "https://leetcode.com/problems/powx-n/" }
         ]
       }
     ]
@@ -132,7 +132,7 @@
       {
         "difficulty": "Easy",
         "questions": [
-          { "id": 38, "title": "Check Prime Number", "link": "#" },
+          { "id": 38, "title": "Check Prime Number", "link": "https://leetcode.com/problems/count-primes/" },
           { "id": 39, "title": "GCD and LCM of Two Numbers", "link": "#" },
           { "id": 40, "title": "Sum of N Natural Numbers", "link": "#" }
         ]
@@ -141,8 +141,8 @@
         "difficulty": "Medium",
         "questions": [
           { "id": 41, "title": "Kadane’s Algorithm (Max Subarray)", "link": "https://leetcode.com/problems/maximum-subarray/" },
-          { "id": 42, "title": "Implement Stack using Array", "link": "#" },
-          { "id": 43, "title": "Implement Queue using Array", "link": "#" }
+          { "id": 42, "title": "Implement Stack using Array", "link": "https://leetcode.com/problems/implement-stack-using-queues/" },
+          { "id": 43, "title": "Implement Queue using Array", "link": "https://leetcode.com/problems/implement-queue-using-stacks/" }
         ]
       }
     ]
