@@ -100,6 +100,16 @@ const Content = () => {
 
                 {/* Content Area: with margin-left on md screens to accommodate sidebar */}
                 <main className="flex-1 p-6 mt-4 md:mt-0 md:ml-64">
+                    <a
+  href="https://github.com/Abhishek-69889/Fronted-Master-Playlist-YT"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="block mt-10 mx-3 text-center bg-black text-white py-2 px-4 rounded hover:bg-gray-800 transition-colors duration-200"
+>
+  📘 View GitHub Notes
+</a>
+
+                    {/* <h3 className=''>Youtube notes:- <a href="https://github.com/Abhishek-69889/Fronted-Master-Playlist-YT" className='underline text-blue-500'>Html Notes</a></h3> */}
                     <div className="max-w-4xl mx-auto">
                         {sections.map((section) => (
                             <section key={section.id} id={section.id} className="mb-12 scroll-mt-20">
