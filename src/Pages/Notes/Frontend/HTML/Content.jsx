@@ -101,13 +101,13 @@ const Content = () => {
                 {/* Content Area: with margin-left on md screens to accommodate sidebar */}
                 <main className="flex-1 p-6 mt-4 md:mt-0 md:ml-64">
                     <a
-  href="https://github.com/Abhishek-69889/Fronted-Master-Playlist-YT"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="block mt-10 mx-3 text-center bg-black text-white py-2 px-4 rounded hover:bg-gray-800 transition-colors duration-200"
->
-  📘 View GitHub Notes
-</a>
+                        href="https://github.com/Abhishek-69889/Fronted-Master-Playlist-YT"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block mb-10 mx-3 text-center bg-black text-white py-2 px-4 rounded hover:bg-gray-800 transition-colors duration-200"
+                    >
+                        📘 View GitHub Notes
+                    </a>
 
                     {/* <h3 className=''>Youtube notes:- <a href="https://github.com/Abhishek-69889/Fronted-Master-Playlist-YT" className='underline text-blue-500'>Html Notes</a></h3> */}
                     <div className="max-w-4xl mx-auto">
@@ -117,17 +117,17 @@ const Content = () => {
                                 <p className="text-gray-700 whitespace-pre-line">{section.content}</p>
                                 <div className='flex items-center gap-2'>
 
-                                <p className=" mt-2">For a more detailed explanation, please visit </p>
-                                {section.link && (
-                                    <a
-                                        href={section.link}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="text-blue-600 underline mt-2 inline-block"
-                                    >
-                                        MDN Web Docs
-                                    </a>
-                                )}
+                                    <p className=" mt-2">For a more detailed explanation, please visit </p>
+                                    {section.link && (
+                                        <a
+                                            href={section.link}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-blue-600 underline mt-2 inline-block"
+                                        >
+                                            MDN Web Docs
+                                        </a>
+                                    )}
                                 </div>
                             </section>
                         ))}
