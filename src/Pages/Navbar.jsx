@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex items-center justify-around px-6 py-4 bg-white shadow-md transition relative">
-      <div className="text-2xl font-bold text-blue-600">Trackmycode</div>
+      <div className="text-2xl font-bold text-blue-600">VedX Coding School</div>
 
       {/* Desktop Menu */}
       <ul className="desktop-menu gap-6 text-lg font-semibold text-gray-800">
