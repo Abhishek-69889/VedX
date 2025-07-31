@@ -35,7 +35,7 @@ const NotesSection = ({ onCardClick }) => {
   };
 
   return (
-    <div id="notes">
+    <div id="note">
       <h1 className="text-3xl sm:text-2xl text-center mt-12 font-semibold tracking-tight text-gray-900">
         Instant Revision Notes
       </h1>

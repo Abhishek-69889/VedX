@@ -6,11 +6,10 @@ import logo from "../assets/vedxians.png";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const navLinks = [
-    { name: 'Notes', href: '#notes' },
+    { name: 'Roadmaps', href: '#roadmap' },
+    { name: 'YT Problems', href: '#yt' },
     { name: 'DSA', href: '#dsa' },
-    { name: 'Quiz', href: '#quiz' },
-    { name: 'FrontTrack', href: 'https://fronttrack.netlify.app/' },
-    { name: 'AlgoTrack', href: 'https://dsapractice.netlify.app/' },
+    { name: 'Notes', href: '#note' },
   ];
 
   return (

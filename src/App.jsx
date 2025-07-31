@@ -13,6 +13,7 @@ import Microsoft from './Pages/DSAPRACTICE/Microsoft/Microsoft';
 import Wipro from './Pages/DSAPRACTICE/Wipro/Wipro';
 import Tcs from './Pages/DSAPRACTICE/TCS/Tcs';
 import Pattern from './Pages/DSAPRACTICE/Patterns/Pattern';
+import CppDsaRoadmap from './Pages/Roadmap/DSA/CppDsaRoadmap';
 // import DSANotes from './Pages/Notes/DSA/Content'; 
 // import PythonNotes from './Pages/Notes/Python/Content'; 
 // import CPPNotes from './Pages/Notes/CPP/Content'; 
@@ -40,9 +41,7 @@ function App() {
         <Route path="/css-notes" element={<CssNotes />} />
         <Route path="/javascript-notes" element={<JsNotes />} />
         <Route path="/react-notes" element={<ReactNotes />} />
-        {/* <Route path="/dsa-notes" element={<DSANotes />} />
-        <Route path="/python-notes" element={<PythonNotes />} />
-        <Route path="/cpp-notes" element={<CPPNotes />} /> */}
+
 
 
         {/* DSA Routes */}
@@ -53,6 +52,11 @@ function App() {
         <Route path='/tcs' element={<Tcs/>}/>
         <Route path='/wipro' element={<Wipro/>}/>
         <Route path='/patterns' element={<Pattern/>}/>
+
+
+        {/* Roadmap routes. */}
+
+        <Route path='DSA' element={<CppDsaRoadmap />}/>
       </Routes>
     </Router>
   );

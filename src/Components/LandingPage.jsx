@@ -4,10 +4,8 @@ import Navbar from "../Pages/Navbar"
 import landing_image from '../assets/BG-banner.png';
 import NotesSection from './sections/NotesSection';
 import DsaSection from './sections/DsaSection';
-import QuizSection from './sections/QuizSection';
-import StudyMaterialSection from './sections/StudyMaterialSection';
-import CsFundamentalsSection from './sections/CsFundamentalsSection';
 import RoadmapSection from './sections/RoadmapSection';
+import A2ZDSA from './sections/A2ZDSA';
 
 const LandingPage = () => {
   const handleCardClick = (sectionId, title) => {
@@ -41,13 +39,12 @@ const LandingPage = () => {
 
 
       {/* Sections */}
-      <NotesSection onCardClick={handleCardClick} />
+      <RoadmapSection onCardClick={handleCardClick} />
+      <A2ZDSA onCardClick={handleCardClick} />
       <DsaSection onCardClick={handleCardClick} />
-      <QuizSection onCardClick={handleCardClick} />
-      {/* Optional future section: <ProgrammingLanguagesSection onCardClick={handleCardClick} /> */}
-      {/* <StudyMaterialSection onCardClick={handleCardClick} /> */}
-      {/* <CsFundamentalsSection onCardClick={handleCardClick} /> */}
-      {/* <RoadmapSection onCardClick={handleCardClick} /> */}
+      <NotesSection onCardClick={handleCardClick} />
+
+
 
       {/* Footer */}
       <footer className="bg-gray-100 border-t mt-10">
@@ -55,8 +52,8 @@ const LandingPage = () => {
     
     {/* Brand Section */}
     <div>
-      <h2 className="text-lg font-semibold text-gray-800 mb-2">
-        TrackMyCode
+      <h2 className="text-blue-500 font-bold text-lg mb-2">
+        VedX Coding School
       </h2>
       <p className="text-gray-600 text-sm">
         A place to learn, grow and track mistakes and improve every day.
@@ -98,7 +95,7 @@ const LandingPage = () => {
   {/* Bottom Bar */}
   <div className="border-t text-center text-gray-500 text-sm py-4">
     <p>
-      Made with ❤️ by Abhishek Tiwari | © {new Date().getFullYear()} TrackMyCode. All rights reserved.
+      Made with ❤️ by Abhishek Tiwari | © {new Date().getFullYear()} <span className='text-blue-500 font-bold text-lg'>VedX Coding School</span>. All rights reserved.
     </p>
   </div>
 </footer>
