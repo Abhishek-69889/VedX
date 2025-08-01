@@ -16,7 +16,8 @@ import Pattern from './Pages/DSAPRACTICE/Patterns/Pattern';
 import CppDsaRoadmap from './Pages/Roadmap/DSA/CppDsaRoadmap';
 // import DSANotes from './Pages/Notes/DSA/Content'; 
 // import PythonNotes from './Pages/Notes/Python/Content'; 
-// import CPPNotes from './Pages/Notes/CPP/Content'; 
+import CPPNotes from './Pages/Notes/CPP/Content'; 
+import Cpp from './Pages/Roadmap/Language/Cpp';
 
 // DSA Practice section
 
@@ -41,22 +42,24 @@ function App() {
         <Route path="/css-notes" element={<CssNotes />} />
         <Route path="/javascript-notes" element={<JsNotes />} />
         <Route path="/react-notes" element={<ReactNotes />} />
+        <Route path="/cpp-notes" element={<CPPNotes />} />
 
 
 
         {/* DSA Routes */}
 
-        <Route path='/google' element={<Google/>}/>
-        <Route path='/amazon' element={<Amazon/>}/>
-        <Route path='/microsoft' element={<Microsoft/>}/>
-        <Route path='/tcs' element={<Tcs/>}/>
-        <Route path='/wipro' element={<Wipro/>}/>
-        <Route path='/patterns' element={<Pattern/>}/>
+        <Route path='/google' element={<Google/>} />
+        <Route path='/amazon' element={<Amazon/>} />
+        <Route path='/microsoft' element={<Microsoft/>} />
+        <Route path='/tcs' element={<Tcs/>} />
+        <Route path='/wipro' element={<Wipro/>} />
+        <Route path='/patterns' element={<Pattern/>} />
 
 
         {/* Roadmap routes. */}
 
-        <Route path='DSA' element={<CppDsaRoadmap />}/>
+        <Route path='DSA' element={<CppDsaRoadmap />} />
+        <Route path='cpp-roadmap' element={<Cpp />} />
       </Routes>
     </Router>
   );

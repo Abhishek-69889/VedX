@@ -16,7 +16,7 @@ const DsaSection = () => {
   return (
     <div id="yt">
       <h1 className="text-3xl text-center mt-12 font-semibold text-gray-900">
-        Youtube Playlist Practice
+        Practice
       </h1>
       {/* <p className="text-md sm:text-xl lg:text-md font-medium mt-2 mx-3 text-gray-600">
         Practice real interview problems from your dream companies.

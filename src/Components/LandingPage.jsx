@@ -5,7 +5,7 @@ import landing_image from '../assets/BG-banner.png';
 import NotesSection from './sections/NotesSection';
 import DsaSection from './sections/DsaSection';
 import RoadmapSection from './sections/RoadmapSection';
-import A2ZDSA from './sections/A2ZDSA';
+import A2ZDSA from './sections/Practice';
 
 const LandingPage = () => {
   const handleCardClick = (sectionId, title) => {

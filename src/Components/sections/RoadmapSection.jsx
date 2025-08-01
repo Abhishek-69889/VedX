@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 const RoadmapSection = () => {
   const navigate = useNavigate();
-  const items = ['Frontend', 'DSA'];
+  const items = ['Frontend', 'DSA' , 'C++'];
 
   const handleClick = (title) => {
     if (title === 'Frontend') {

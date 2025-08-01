@@ -9,7 +9,7 @@ const NotesSection = ({ onCardClick }) => {
     'Frontend', 
     // 'Backend', 
     // 'Python', 
-    // 'C++'
+    'C++'
   ];
   const [showFrontendPopup, setShowFrontendPopup] = useState(false);
   const navigate = useNavigate();

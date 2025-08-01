@@ -1,0 +1,39 @@
+{
+  "cpp_topics": [
+    {
+      "month": "Month 1",
+      "topics": [
+        "Introduction",
+        "Input/Output",
+        "Variables & Data Types",
+        "Operators & Expressions",
+        "Conditional Statements",
+        "Loops (for, while, do-while)",
+        "Functions",
+        "Recursion",
+        "Arrays",
+        "Strings"
+      ]
+    },
+    {
+      "month": "Month 2",
+      "topics": [
+        "Pointers and References",
+        "Dynamic Memory Allocation",
+        "Structures",
+        "STL Iterators"
+      ]
+    },
+    {
+      "month": "Month 3",
+      "topics": [
+        "Classes & Objects",
+        "Constructors & Destructors",
+        "Encapsulation",
+        "Abstraction",
+        "Inheritance (Basic)",
+        "Polymorphism (Basic)"
+      ]
+    }
+  ]
+}

@@ -7,7 +7,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const navLinks = [
     { name: 'Roadmaps', href: '#roadmap' },
-    { name: 'YT Problems', href: '#yt' },
+    { name: 'Practice', href: '#yt' },
     { name: 'DSA', href: '#dsa' },
     { name: 'Notes', href: '#note' },
   ];

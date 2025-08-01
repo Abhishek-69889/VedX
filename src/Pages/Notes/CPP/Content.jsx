@@ -3,466 +3,59 @@ import Sidebar from './Sidebar';
 
 const sections = [
   {
-    "title": "DSA Tutorial",
-    "items": [
-      {
-        "id": "home",
-        "title": "DSA HOME",
-        "content": "Start here to explore Data Structures and Algorithms (DSA). This page introduces the DSA course, its structure, and learning benefits.",
-        "link": "https://www.w3schools.com/dsa/"
-      },
-      {
-        "id": "intro",
-        "title": "DSA Intro",
-        "content": "An overview of what DSA is, why it's important in computer science, and how it helps in writing optimized code.",
-        "link": "https://www.w3schools.com/dsa/dsa_intro.php"
-      },
-      {
-        "id": "simple-algo",
-        "title": "DSA Simple Algorithm",
-        "content": "Explanation of a basic algorithm using step-by-step instructions. This introduces the algorithmic way of thinking using simple real-world examples.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_simple.php"
-      }
-    ]
-  },
-  {
-    "title": "Arrays",
-    "items": [
-      {
-        "id": "arrays",
-        "title": "DSA Arrays",
-        "content": "Introduction to arrays, how they store elements in contiguous memory, and basic operations like insert, delete, and access using index.",
-        "link": "https://www.w3schools.com/dsa/dsa_arrays.php"
-      },
-      {
-        "id": "bubble-sort",
-        "title": "DSA Bubble Sort",
-        "content": "Bubble Sort is a simple comparison-based sorting algorithm. This section explains how it works by repeatedly swapping adjacent elements.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_bubblesort.php"
-      },
-      {
-        "id": "selection-sort",
-        "title": "DSA Selection Sort",
-        "content": "Selection Sort repeatedly finds the minimum element and places it at the beginning. Useful for understanding sorting by selection logic.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_selectionsort.php"
-      },
-      {
-        "id": "insertion-sort",
-        "title": "DSA Insertion Sort",
-        "content": "Insertion Sort builds the final sorted array one item at a time. Great for understanding sorting on small datasets or nearly sorted data.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_insertionsort.php"
-      },
-      {
-        "id": "quick-sort",
-        "title": "DSA Quick Sort",
-        "content": "Quick Sort is a highly efficient divide-and-conquer algorithm that selects a pivot and partitions the array. Commonly used in practice.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_quicksort.php"
-      },
-      {
-        "id": "counting-sort",
-        "title": "DSA Counting Sort",
-        "content": "Counting Sort is a non-comparison-based sorting technique that counts the number of objects with distinct key values.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_countingsort.php"
-      },
-      {
-        "id": "radix-sort",
-        "title": "DSA Radix Sort",
-        "content": "Radix Sort sorts numbers digit by digit starting from the least significant digit. It's useful for large sets of integers.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_radixsort.php"
-      },
-      {
-        "id": "merge-sort",
-        "title": "DSA Merge Sort",
-        "content": "Merge Sort divides the array into halves, sorts each half, and then merges them. It's a stable and efficient divide-and-conquer algorithm.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_mergesort.php"
-      },
-      {
-        "id": "linear-search",
-        "title": "DSA Linear Search",
-        "content": "Linear Search checks each element one by one. It's simple and effective for small or unsorted datasets.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_linearsearch.php"
-      },
-      {
-        "id": "binary-search",
-        "title": "DSA Binary Search",
-        "content": "Binary Search is an efficient algorithm for finding elements in a sorted array by repeatedly dividing the search interval in half.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_binarysearch.php"
-      }
-    ]
-  },
-  {
-    "title": "Linked Lists",
-    "items": [
-      {
-        "id": "linked-lists",
-        "title": "DSA Linked Lists",
-        "content": "Linked Lists are linear data structures where elements (nodes) are linked using pointers. They allow efficient insertion and deletion.",
-        "link": "https://www.w3schools.com/dsa/dsa_linkedlist.php"
-      },
-      {
-        "id": "ll-memory",
-        "title": "DSA Linked Lists in Memory",
-        "content": "Explains how linked lists are stored in memory. Each node contains data and a pointer to the next node.",
-        "link": "https://www.w3schools.com/dsa/dsa_linkedlist_memory.php"
-      },
-      {
-        "id": "ll-types",
-        "title": "DSA Linked Lists Types",
-        "content": "Covers different types of linked lists: singly, doubly, and circular linked lists, with diagrams and examples.",
-        "link": "https://www.w3schools.com/dsa/dsa_linkedlist_types.php"
-      },
-      {
-        "id": "ll-operations",
-        "title": "Linked Lists Operations",
-        "content": "Demonstrates how to perform insertion, deletion, traversal, and search operations on linked lists.",
-        "link": "https://www.w3schools.com/dsa/dsa_linkedlist_operations.php"
-      }
-    ]
-  },
-  {
-    "title": "Stacks & Queues",
-    "items": [
-      {
-        "id": "stacks",
-        "title": "DSA Stacks",
-        "content": "A stack is a linear data structure that follows the Last In First Out (LIFO) principle. Common operations: push, pop, peek.",
-        "link": "https://www.w3schools.com/dsa/dsa_stack.php"
-      },
-      {
-        "id": "queues",
-        "title": "DSA Queues",
-        "content": "A queue is a linear data structure that follows the First In First Out (FIFO) principle. Supports enqueue and dequeue operations.",
-        "link": "https://www.w3schools.com/dsa/dsa_queue.php"
-      }
-    ]
-  },
-  {
-    "title": "Hash Tables",
-    "items": [
-      {
-        "id": "hash-tables",
-        "title": "DSA Hash Tables",
-        "content": "Hash Tables are used to store key-value pairs. They use a hash function to compute an index into an array of buckets.",
-        "link": "https://www.w3schools.com/dsa/dsa_hashing.php"
-      },
-      {
-        "id": "hash-sets",
-        "title": "DSA Hash Sets",
-        "content": "Hash Sets store unique elements and are implemented using hash tables. Ideal for membership checks.",
-        "link": "https://www.w3schools.com/dsa/dsa_hashing_set.php"
-      },
-      {
-        "id": "hash-maps",
-        "title": "DSA Hash Maps",
-        "content": "Hash Maps store key-value pairs with fast access. They handle collisions using techniques like chaining or open addressing.",
-        "link": "https://www.w3schools.com/dsa/dsa_hashing_map.php"
-      }
-    ]
-  },
-   {
-    "title": "Trees",
-    "items": [
-      {
-        "id": "trees",
-        "title": "DSA Trees",
-        "content": "Trees are hierarchical data structures with a root node and child nodes. They are used to represent data with hierarchical relationships.",
-        "link": "https://www.w3schools.com/dsa/dsa_tree.php"
-      },
-      {
-        "id": "binary-trees",
-        "title": "DSA Binary Trees",
-        "content": "A binary tree is a type of tree where each node has at most two children. Used in many search and sort algorithms.",
-        "link": "https://www.w3schools.com/dsa/dsa_tree_binary.php"
-      },
-      {
-        "id": "preorder",
-        "title": "DSA Pre-order Traversal",
-        "content": "Pre-order traversal visits the root first, then recursively traverses the left and right subtrees.",
-        "link": "https://www.w3schools.com/dsa/dsa_tree_preorder.php"
-      },
-      {
-        "id": "inorder",
-        "title": "DSA In-order Traversal",
-        "content": "In-order traversal visits the left subtree, then the root, then the right subtree. Common in BST operations.",
-        "link": "https://www.w3schools.com/dsa/dsa_tree_inorder.php"
-      },
-      {
-        "id": "postorder",
-        "title": "DSA Post-order Traversal",
-        "content": "Post-order traversal visits the left and right subtrees before the root. Useful for deleting or freeing nodes.",
-        "link": "https://www.w3schools.com/dsa/dsa_tree_postorder.php"
-      },
-      {
-        "id": "tree-array",
-        "title": "DSA Array Implementation",
-        "content": "Shows how to implement binary trees using arrays, especially useful for complete binary trees like heaps.",
-        "link": "https://www.w3schools.com/dsa/dsa_tree_array.php"
-      },
-      {
-        "id": "bst",
-        "title": "DSA Binary Search Trees",
-        "content": "Binary Search Trees (BST) are binary trees with left < root < right ordering. Efficient for search, insert, delete.",
-        "link": "https://www.w3schools.com/dsa/dsa_tree_bst.php"
-      },
-      {
-        "id": "avl",
-        "title": "DSA AVL Trees",
-        "content": "AVL trees are self-balancing binary search trees where the difference in height between subtrees is at most 1.",
-        "link": "https://www.w3schools.com/dsa/dsa_tree_avl.php"
-      }
-    ]
-  },
-  {
-    "title": "Graphs",
-    "items": [
-      {
-        "id": "graphs",
-        "title": "DSA Graphs",
-        "content": "Graphs are collections of nodes (vertices) connected by edges. They are used to model networks, paths, and relationships.",
-        "link": "https://www.w3schools.com/dsa/dsa_graph.php"
-      },
-      {
-        "id": "graphs-impl",
-        "title": "Graphs Implementation",
-        "content": "Describes graph implementation using adjacency matrices and adjacency lists, with code examples.",
-        "link": "https://www.w3schools.com/dsa/dsa_graph_impl.php"
-      },
-      {
-        "id": "graphs-traversal",
-        "title": "DSA Graphs Traversal",
-        "content": "Graph traversal includes Breadth-First Search (BFS) and Depth-First Search (DFS) algorithms.",
-        "link": "https://www.w3schools.com/dsa/dsa_graph_traversal.php"
-      },
-      {
-        "id": "cycle-detection",
-        "title": "DSA Cycle Detection",
-        "content": "Explains how to detect cycles in directed and undirected graphs using DFS and Union-Find.",
-        "link": "https://www.w3schools.com/dsa/dsa_graph_cycle.php"
-      }
-    ]
-  },
-  {
-    "title": "Shortest Path",
-    "items": [
-      {
-        "id": "shortest-path",
-        "title": "DSA Shortest Path",
-        "content": "The shortest path problem finds the minimum path between two nodes in a graph using various algorithms.",
-        "link": "https://www.w3schools.com/dsa/dsa_graph_shortest_path.php"
-      },
-      {
-        "id": "dijkstra",
-        "title": "DSA Dijkstra's",
-        "content": "Dijkstra’s algorithm finds the shortest path from a source node to all other nodes in a weighted graph.",
-        "link": "https://www.w3schools.com/dsa/dsa_graph_dijkstra.php"
-      },
-      {
-        "id": "bellman-ford",
-        "title": "DSA Bellman-Ford",
-        "content": "Bellman-Ford algorithm handles graphs with negative weights and detects negative cycles.",
-        "link": "https://www.w3schools.com/dsa/dsa_graph_bellman_ford.php"
-      }
-    ]
-  },
-  {
-    "title": "Minimum Spanning Tree",
-    "items": [
-      {
-        "id": "mst",
-        "title": "Minimum Spanning Tree",
-        "content": "A Minimum Spanning Tree (MST) connects all nodes in a graph with the minimum total edge weight.",
-        "link": "https://www.w3schools.com/dsa/dsa_graph_mst.php"
-      },
-      {
-        "id": "prim",
-        "title": "DSA Prim's",
-        "content": "Prim’s algorithm finds the MST by growing it from a starting vertex using the smallest edge weight.",
-        "link": "https://www.w3schools.com/dsa/dsa_graph_prims.php"
-      },
-      {
-        "id": "kruskal",
-        "title": "DSA Kruskal's",
-        "content": "Kruskal’s algorithm finds MST by sorting all edges and adding the smallest ones while avoiding cycles.",
-        "link": "https://www.w3schools.com/dsa/dsa_graph_kruskal.php"
-      }
-    ]
-  },
-  {
-    "title": "Maximum Flow",
-    "items": [
-      {
-        "id": "max-flow",
-        "title": "DSA Maximum Flow",
-        "content": "Maximum flow problems find the greatest possible flow in a network from source to sink under capacity constraints.",
-        "link": "https://www.w3schools.com/dsa/dsa_graph_max_flow.php"
-      },
-      {
-        "id": "ford-fulkerson",
-        "title": "DSA Ford-Fulkerson",
-        "content": "The Ford-Fulkerson method uses augmenting paths to compute the maximum flow in a flow network.",
-        "link": "https://www.w3schools.com/dsa/dsa_graph_ford_fulkerson.php"
-      },
-      {
-        "id": "edmonds-karp",
-        "title": "DSA Edmonds-Karp",
-        "content": "Edmonds-Karp algorithm is an implementation of Ford-Fulkerson using BFS for finding augmenting paths.",
-        "link": "https://www.w3schools.com/dsa/dsa_graph_edmonds_karp.php"
-      }
-    ]
-  },
-  {
-    "title": "Time Complexity",
-    "items": [
-      {
-        "id": "tc-intro",
-        "title": "Introduction",
-        "content": "Time complexity is a measure of the time an algorithm takes to run as a function of input size. It helps analyze efficiency.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_timecomplexity.php"
-      },
-      {
-        "id": "tc-bubble",
-        "title": "Bubble Sort",
-        "content": "Analyzes time complexity of the Bubble Sort algorithm in best, average, and worst cases.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_bubblesort_tc.php"
-      },
-      {
-        "id": "tc-selection",
-        "title": "Selection Sort",
-        "content": "Details the time complexity of Selection Sort with explanations of its behavior in all cases.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_selectionsort_tc.php"
-      },
-      {
-        "id": "tc-insertion",
-        "title": "Insertion Sort",
-        "content": "Explains the efficiency of Insertion Sort and how it performs in sorted vs unsorted data.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_insertionsort_tc.php"
-      },
-      {
-        "id": "tc-quick",
-        "title": "Quick Sort",
-        "content": "Analyzes the time complexity of Quick Sort, a divide-and-conquer algorithm with average O(n log n) performance.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_quicksort_tc.php"
-      },
-      {
-        "id": "tc-counting",
-        "title": "Counting Sort",
-        "content": "Breaks down the time complexity of Counting Sort, a linear time sorting algorithm for integers.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_countingsort_tc.php"
-      },
-      {
-        "id": "tc-radix",
-        "title": "Radix Sort",
-        "content": "Covers the time complexity of Radix Sort, which sorts numbers digit by digit without comparison.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_radixsort_tc.php"
-      },
-      {
-        "id": "tc-merge",
-        "title": "Merge Sort",
-        "content": "Explains the time complexity of Merge Sort, a stable and efficient O(n log n) divide-and-conquer algorithm.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_mergesort_tc.php"
-      },
-      {
-        "id": "tc-linear",
-        "title": "Linear Search",
-        "content": "Analyzes the time complexity of Linear Search, a simple method with O(n) worst-case performance.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_linearsearch_tc.php"
-      },
-      {
-        "id": "tc-binary",
-        "title": "Binary Search",
-        "content": "Covers the time complexity of Binary Search, which splits the search space in half each time.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_binarysearch_tc.php"
-      }
-    ]
-  },
-  {
-    "title": "DSA Reference",
-    "items": [
-      {
-        "id": "euclidean",
-        "title": "DSA Euclidean Algorithm",
-        "content": "The Euclidean Algorithm is used to find the greatest common divisor (GCD) of two numbers efficiently.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_euclidean.php"
-      },
-      {
-        "id": "huffman",
-        "title": "DSA Huffman Coding",
-        "content": "Huffman Coding is a lossless compression algorithm based on frequency of characters in a string.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_huffman.php"
-      },
-      {
-        "id": "tsp",
-        "title": "DSA The Traveling Salesman",
-        "content": "The Traveling Salesman Problem (TSP) is a classic optimization problem to find the shortest route visiting all cities.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_tsp.php"
-      },
-      {
-        "id": "knapsack",
-        "title": "DSA 0/1 Knapsack",
-        "content": "The 0/1 Knapsack Problem uses dynamic programming to determine the most valuable items to include in a bag.",
-        "link": "https://www.w3schools.com/dsa/dsa_algo_knapsack.php"
-      },
-      {
-        "id": "memo",
-        "title": "DSA Memoization",
-        "content": "Memoization is a top-down dynamic programming technique that stores results of expensive function calls.",
-        "link": "https://www.w3schools.com/dsa/dsa_dp_memoization.php"
-      },
-      {
-        "id": "tabulation",
-        "title": "DSA Tabulation",
-        "content": "Tabulation is a bottom-up dynamic programming approach that builds up solutions iteratively.",
-        "link": "https://www.w3schools.com/dsa/dsa_dp_tabulation.php"
-      },
-      {
-        "id": "dp",
-        "title": "DSA Dynamic Programming",
-        "content": "Dynamic Programming is an optimization technique used to solve complex problems by breaking them into simpler subproblems.",
-        "link": "https://www.w3schools.com/dsa/dsa_dp.php"
-      },
-      {
-        "id": "greedy",
-        "title": "DSA Greedy Algorithms",
-        "content": "Greedy algorithms make locally optimal choices at each step with the hope of finding a global optimum.",
-        "link": "https://www.w3schools.com/dsa/dsa_greedy.php"
-      }
-    ]
-  },
-  {
-    "title": "DSA Examples",
-    "items": [
-      {
-        "id": "examples",
-        "title": "DSA Examples",
-        "content": "Includes various solved examples to illustrate concepts and problem-solving using DSA.",
-        "link": "https://www.w3schools.com/dsa/dsa_examples.php"
-      },
-      {
-        "id": "exercises",
-        "title": "DSA Exercises",
-        "content": "A collection of exercises and practice questions to test and strengthen your understanding of DSA.",
-        "link": "https://www.w3schools.com/dsa/dsa_exercises.php"
-      },
-      {
-        "id": "quiz",
-        "title": "DSA Quiz",
-        "content": "Test your DSA knowledge with this interactive quiz based on key concepts and problems.",
-        "link": "https://www.w3schools.com/dsa/dsa_quiz.php"
-      },
-      {
-        "id": "syllabus",
-        "title": "DSA Syllabus",
-        "content": "Provides a complete overview of all topics covered in W3Schools' DSA course, organized systematically.",
-        "link": "https://www.w3schools.com/dsa/dsa_syllabus.php"
-      },
-      {
-        "id": "study-plan",
-        "title": "DSA Study Plan",
-        "content": "A structured study plan to help learners master Data Structures and Algorithms step-by-step.",
-        "link": "https://www.w3schools.com/dsa/dsa_study_plan.php"
-      }
-    ]
-  }
+  "title": "C++ Tutorial",
+  "items": [
+    {
+      "id": "basics",
+      "title": "Basics of C++",
+      "content": "C++ is a general-purpose, high-level programming language that supports object-oriented, procedural, and generic programming. It was developed by Bjarne Stroustrup as an extension of the C language. The first step in learning C++ includes setting up the development environment (like installing Code::Blocks or using online compilers) and understanding the structure of a simple C++ program, which includes headers, the main function, and syntax for input/output.",
+      "link": "https://www.w3schools.com/cpp/cpp_intro.asp"
+    },
+    {
+      "id": "data-types",
+      "title": "Data Types & Variables",
+      "content": "Data types in C++ define the type of data a variable can hold. Common data types include int, float, double, char, and bool. Variables are containers used to store values. You must declare a variable before using it by specifying its data type, like 'int age = 25;'. C++ is statically typed, so variable types must be declared explicitly. Constants can be defined using the 'const' keyword to make variables immutable.",
+      "link": "https://www.w3schools.com/cpp/cpp_data_types.asp"
+    },
+    {
+      "id": "operators",
+      "title": "Operators",
+      "content": "Operators in C++ are symbols that perform operations on variables and values. The main types include: Arithmetic operators (+, -, *, /, %), Assignment operators (=, +=, -=, etc.), Comparison operators (==, !=, >, <, >=, <=), Logical operators (&&, ||, !), and Bitwise operators (&, |, ^, ~, <<, >>). Understanding operator precedence and associativity is important for evaluating expressions correctly.",
+      "link": "https://www.w3schools.com/cpp/cpp_operators.asp"
+    },
+    {
+      "id": "control-flow",
+      "title": "Control Flow (if, loops, switch)",
+      "content": "Control flow structures allow decision-making and repetitive execution in C++. Conditional statements include 'if', 'if-else', and 'if-else if' for branching logic. The 'switch' statement is useful when comparing a variable against multiple constant values. Loops include 'for', 'while', and 'do-while' — used for repeating code blocks a certain number of times or while a condition holds true. Break and continue statements help in controlling loop execution flow.",
+      "link": "https://www.w3schools.com/cpp/cpp_conditions.asp"
+    },
+    {
+      "id": "functions",
+      "title": "Functions",
+      "content": "Functions are blocks of code that perform a specific task and help in code reusability and modularity. In C++, a function is defined with a return type, name, and optional parameters. Example: 'int add(int a, int b)'. Functions can return values or be void (no return value). They can also be overloaded (same name, different parameters). C++ also supports default arguments and recursion. The 'main()' function is the entry point of any C++ program.",
+      "link": "https://www.w3schools.com/cpp/cpp_functions.asp"
+    },
+    {
+      "id": "arrays-strings",
+      "title": "Arrays & Strings",
+      "content": "Arrays in C++ are used to store multiple values of the same type in a single variable. They have fixed size and zero-based indexing. Syntax: 'int arr[5] = {1, 2, 3, 4, 5};'. Strings in C++ can be managed using either character arrays (C-style) or the 'string' class from the Standard Library. C-style strings are null-terminated character arrays, while the 'string' class offers more functionality like length(), substr(), and concatenation using '+'.",
+      "link": "https://www.w3schools.com/cpp/cpp_arrays.asp"
+    },
+    {
+      "id": "pointers",
+      "title": "Pointers",
+      "content": "Pointers are variables that store the memory address of another variable. They are a powerful feature in C++ that allow dynamic memory management, efficient array handling, and complex data structures like linked lists. Syntax: 'int *ptr = &var;'. You can access the value at the address using the dereference operator '*'. Pointers can be incremented/decremented to move through memory and are heavily used in functions for pass-by-reference and in dynamic memory allocation.",
+      "link": "https://www.w3schools.com/cpp/cpp_pointers.asp"
+    },
+    {
+      "id": "dynamic-memory",
+      "title": "Dynamic Memory Allocation",
+      "content": "Dynamic memory in C++ is allocated using the 'new' operator and deallocated using 'delete'. This allows allocation of memory at runtime instead of compile time. Example: 'int* ptr = new int;'. For arrays: 'int* arr = new int[10];'. It's important to free dynamically allocated memory to avoid memory leaks using 'delete' (for single variables) or 'delete[]' (for arrays). Smart pointers introduced in C++11 help manage memory automatically.",
+      "link": "https://www.w3schools.com/cpp/cpp_memory.asp"
+    }
+  ]
+}
+
 ];
 
 
