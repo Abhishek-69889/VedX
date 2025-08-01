@@ -1,15 +1,27 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import roadmapRaw from './CppData.json';
 
 const roadmapData = roadmapRaw.cpp_topics.flatMap(month => month.topics);
 
 const Cpp = () => {
-  const [checkedItems, setCheckedItems] = useState(
-    roadmapData.reduce((acc, topic) => {
+  const storageKey = 'cppCheckboxStates';
+
+  // Load saved state from localStorage if it exists
+  const getInitialState = () => {
+    const saved = localStorage.getItem(storageKey);
+    if (saved) return JSON.parse(saved);
+    return roadmapData.reduce((acc, topic) => {
       acc[topic] = false;
       return acc;
-    }, {})
-  );
+    }, {});
+  };
+
+  const [checkedItems, setCheckedItems] = useState(getInitialState);
+
+  // Save to localStorage whenever checkedItems changes
+  useEffect(() => {
+    localStorage.setItem(storageKey, JSON.stringify(checkedItems));
+  }, [checkedItems]);
 
   const toggleCheckbox = (topic) => {
     setCheckedItems(prev => ({
