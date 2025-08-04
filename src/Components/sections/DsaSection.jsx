@@ -72,7 +72,7 @@ const DsaSection = () => {
   };
 
   return (
-    <div id="dsa" className="bg-white dark:bg-[#0e0e0e] py-12">
+    <div id="dsa" className="dark:bg-[#0e0e0e] py-12">
       <h1 className="text-3xl text-center font-semibold text-gray-900 dark:text-white">
         Company-Specific DSA Prep
       </h1>
