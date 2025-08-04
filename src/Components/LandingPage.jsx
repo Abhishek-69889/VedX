@@ -33,7 +33,7 @@ const LandingPage = () => {
       alt="VedX Owl Logo"
       className="h-10 sm:h-12 align-middle"
     />
-    <span>You’re not just learning to code —</span>
+    <span>You’re not just learning to code—</span>
   </div>
   <div className="mt-4">
     <span className="font-bold">
@@ -105,7 +105,7 @@ const LandingPage = () => {
 
         <div className="border-t border-gray-700 text-center text-sm py-4">
           <p>
-            Made with ❤️ by Abhishek Tiwari | © {new Date().getFullYear()} <span className="text-purple-400 font-bold">VedX Coding School</span>. All rights reserved.
+            Made with ❤️ by Abhishek Tiwari | © {new Date().getFullYear()} <span className="glowing text-purple-400 font-bold">VedX Coding School</span>. All rights reserved.
           </p>
         </div>
       </footer>
