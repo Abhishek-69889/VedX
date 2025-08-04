@@ -34,6 +34,11 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+  document.documentElement.classList.add('dark');
+}, []);
+
+
   return (
     <Router>
       <Routes>

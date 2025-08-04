@@ -19,29 +19,35 @@ const LandingPage = () => {
 
       {/* Hero Section */}
 
-<section className="relative h-screen w-full overflow-hidden text-white flex flex-col items-center justify-center px-4 text-center">
-  {/* Background Gradient / Overlay */}
-  <div className="absolute inset-0 opacity-95 z-0 bg-black"></div>
+<section className="relative h-screen w-full overflow-hidden text-white flex flex-col items-center justify-center px-4 text-center bg-black">
+  {/* Spiral-Like Background Pattern */}
+  <div className="absolute inset-0 z-0">
+    <div className="w-full h-full bg-[radial-gradient(circle,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[length:30px_30px]"></div>
+  </div>
 
-  {/* Content */}
+  {/* Overlay for Dark Contrast */}
+  <div className="absolute inset-0 bg-black bg-opacity-90 z-0"></div>
+
+  {/* Foreground Content */}
   <div className="relative z-10 max-w-3xl space-y-6">
-<h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold leading-snug text-center max-w-4xl mx-auto">
-  <div className="flex items-center justify-center gap-2 flex-wrap">
-    <span>At</span>
-    <img
-      src={logo}
-      alt="VedX Owl Logo"
-      className="h-10 sm:h-12 align-middle"
-    />
-    <span>You’re not just learning to code—</span>
-  </div>
-  <div className="mt-4">
-    <span className="font-bold">
-      You’re  <span className="typing"></span> Your Tomorrow.
-    </span>
-  </div>
-</h1>
-
+    <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold leading-snug text-center max-w-4xl mx-auto">
+      <div className="flex items-center justify-center gap-2 flex-wrap">
+        <span>At</span>
+        <img
+          src={logo}
+          alt="VedX Owl Logo"
+          className="h-10 sm:h-12 align-middle"
+        />
+        <span>You’re not just learning to </span>
+        <span className="text-[#00bcd4] font-bold">Code</span>
+        <span>—</span>
+      </div>
+      <div className="mt-4">
+        <span className="font-bold">
+          You’re <span className="typing"></span> Your Tomorrow.
+        </span>
+      </div>
+    </h1>
 
     {/* CTA Button */}
     <div>
@@ -56,6 +62,8 @@ const LandingPage = () => {
     </div>
   </div>
 </section>
+
+
 
 
 
