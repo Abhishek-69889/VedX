@@ -73,10 +73,10 @@ const DsaSection = () => {
 
   return (
     <div id="dsa" className="dark:bg-[#0e0e0e] py-12">
-      <h1 className="text-3xl text-center font-semibold text-gray-900 dark:text-white">
+      <h1 className="text-3xl text-center font-semibold text-white dark:text-white">
         Company-Specific DSA Prep
       </h1>
-      <p className="text-md sm:text-xl lg:text-md font-medium mt-2 mx-3 text-gray-600 dark:text-gray-400 text-center">
+      <p className="text-md sm:text-xl lg:text-md font-medium mt-2 mx-3 text-gray-400 dark:text-gray-400 text-center">
         Practice real interview problems from your dream companies.
       </p>
 
