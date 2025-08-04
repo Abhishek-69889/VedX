@@ -55,7 +55,7 @@ const CppDsaRoadmap = () => {
   const availableCategories = Object.keys(roadmapData[selectedType]);
 
 return (
-  <div className="min-h-screen bg-gray-100 dark:bg-[#0e0e0e] flex items-center justify-center p-4">
+  <div className="min-h-screen  dark:bg-[#0e0e0e] flex items-center justify-center p-4">
     <div className="w-full max-w-3xl  dark:bg-[#1f1f1f] p-6 rounded-xl shadow space-y-6">
       <h1 className="text-3xl font-bold text-center mb-6 text-black dark:text-white">
         DSA Roadmap
