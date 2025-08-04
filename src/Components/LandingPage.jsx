@@ -1,41 +1,63 @@
 import React from 'react';
-import Navbar from "../Pages/Navbar"
-// import landing_image from '../assets/E-learning.jpg';
-import landing_image from '../assets/BG-banner.png';
+import Navbar from "../Pages/Navbar";
+import logo from '../assets/vedxians.png';
 import NotesSection from './sections/NotesSection';
 import DsaSection from './sections/DsaSection';
 import RoadmapSection from './sections/RoadmapSection';
 import A2ZDSA from './sections/Practice';
+import '../assets/CSS/landingPage.css'
 
 const LandingPage = () => {
   const handleCardClick = (sectionId, title) => {
-    // Placeholder for future routing logic
     console.log(`Clicked on ${title} in section ${sectionId}`);
-    window.location.href = '/'; // Adjust this to use react-router-dom later
+    window.location.href = '/';
   };
 
   return (
-    <div className="min-h-screen text-gray-900">
-      <Navbar/>
+    <div className="min-h-screen bg-[#0f0f0f] text-white transition-colors duration-500 ease-in-out">
+      <Navbar />
 
       {/* Hero Section */}
-      <section className="relative bg-black/90  w-full">
-  <img
-    src={landing_image}
-    alt="VedX Banner"
-    className="w-full h-[100vh] object-contain"
-  />
 
-  {/* Button positioned at bottom area over image */}
-  <div className="absolute bottom-30 left-1/2 transform -translate-x-1/2 z-10">
-    <a
-      href="https://www.youtube.com/watch?v=lfOat53fFL8&t=2s"
-      className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition font-semibold shadow"
-    >
-      Introduction
-    </a>
+<section className="relative h-screen w-full overflow-hidden text-white flex flex-col items-center justify-center px-4 text-center">
+  {/* Background Gradient / Overlay */}
+  <div className="absolute inset-0 opacity-95 z-0 bg-black"></div>
+
+  {/* Content */}
+  <div className="relative z-10 max-w-3xl space-y-6">
+<h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold leading-snug text-center max-w-4xl mx-auto">
+  <div className="flex items-center justify-center gap-2 flex-wrap">
+    <span>At</span>
+    <img
+      src={logo}
+      alt="VedX Owl Logo"
+      className="h-10 sm:h-12 align-middle"
+    />
+    <span>You’re not just learning to code —</span>
+  </div>
+  <div className="mt-4">
+    <span className="font-bold">
+      You’re  <span className="typing"></span> Your Tomorrow.
+    </span>
+  </div>
+</h1>
+
+
+    {/* CTA Button */}
+    <div>
+      <a
+        href="https://www.youtube.com/watch?v=lfOat53fFL8&t=2s"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 sm:px-8 py-4 my-10 sm:py-4 rounded-full text-sm sm:text-base font-semibold hover:scale-105 hover:shadow-xl transition-all duration-300 shadow-lg inline-block"
+      >
+        🎬 Watch Introduction
+      </a>
+    </div>
   </div>
 </section>
+
+
 
 
       {/* Sections */}
@@ -44,62 +66,49 @@ const LandingPage = () => {
       <DsaSection onCardClick={handleCardClick} />
       <NotesSection onCardClick={handleCardClick} />
 
-
-
       {/* Footer */}
-      <footer className="bg-gray-100 border-t mt-10">
-  <div className="max-w-6xl mx-auto px-4 py-8 grid grid-cols-1 sm:grid-cols-4 gap-8 text-center sm:text-left">
-    
-    {/* Brand Section */}
-    <div>
-      <h2 className="text-blue-500 font-bold text-lg mb-2">
-        VedX Coding School
-      </h2>
-      <p className="text-gray-600 text-sm">
-        A place to learn, grow and track mistakes and improve every day.
-      </p>
-    </div>
+      <footer className="bg-[#111] border-t border-gray-700 mt-16 text-gray-400">
+        <div className="max-w-6xl mx-auto px-4 py-10 grid grid-cols-1 sm:grid-cols-4 gap-10 text-center sm:text-left">
+          <div>
+            <h2 className="text-[#00FFFF] font-bold text-xl mb-2">VedX Coding School</h2>
+            <p className="text-sm">Learn, grow, track mistakes, and improve every day.</p>
+          </div>
 
-    {/* Navigation Links */}
-    <div>
-      <h3 className="text-md font-semibold text-gray-800 mb-2">Quick Links</h3>
-      <ul className="space-y-2 text-gray-600 text-sm">
-        <li><a href="#notes" className="hover:text-gray-900">Notes</a></li>
-        <li><a href="#dsa" className="hover:text-gray-900">DSA</a></li>
-        <li><a href="#quiz" className="hover:text-gray-900">Quiz</a></li>
-      </ul>
-    </div>
+          <div>
+            <h3 className="text-md font-semibold text-[#00FFFF] mb-3">Quick Links</h3>
+            <ul className="space-y-2">
+              <li><a href="#notes" className="hover:text-white transition">Notes</a></li>
+              <li><a href="#dsa" className="hover:text-white transition">DSA</a></li>
+              <li><a href="#quiz" className="hover:text-white transition">Quiz</a></li>
+            </ul>
+          </div>
 
-    {/* Tracker */}
-    <div>
-      <h3 className="text-md font-semibold text-gray-800 mb-2">Track your growth</h3>
-      <ul className="space-y-2 text-gray-600 text-sm">
-        <li><a href="https://errolog.netlify.app/" className="hover:text-gray-900">ErrorLog</a></li>
-        <li><a href="https://fronttrack.netlify.app/" className="hover:text-gray-900">FontTrack</a></li>
-        <li><a href="https://dsapractice.netlify.app/" className="hover:text-gray-900">AlgoTrack</a></li>
-      </ul>
-    </div>
+          <div>
+            <h3 className="text-md font-semibold text-[#00FFFF] mb-3">Track your growth</h3>
+            <ul className="space-y-2">
+              <li><a href="https://errolog.netlify.app/" className="hover:text-white transition">ErrorLog</a></li>
+              <li><a href="https://fronttrack.netlify.app/" className="hover:text-white transition">FontTrack</a></li>
+              <li><a href="https://dsapractice.netlify.app/" className="hover:text-white transition">AlgoTrack</a></li>
+            </ul>
+          </div>
 
-    {/* Social or Contact */}
-    <div>
-      <h3 className="text-md font-semibold text-gray-800 mb-2">Connect</h3>
-      <ul className="space-y-2 text-gray-600 text-sm">
-        <li><a href="https://abhishek-tportfolio.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900">Portfolio</a></li>
-        <li><a href="https://www.linkedin.com/in/abhishek-softweredeveloper/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900">LinkedIn</a></li>
-        <li><a href="mailto:abhit0396@gmail.com" className="hover:text-gray-900">Email</a></li>
-        <li><a href="https://github.com/Abhishek-69889" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900">GitHub</a></li>
-      </ul>
-    </div>
-  </div>
+          <div>
+            <h3 className="text-md font-semibold text-[#00FFFF] mb-3">Connect</h3>
+            <ul className="space-y-2">
+              <li><a href="https://abhishek-tportfolio.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">Portfolio</a></li>
+              <li><a href="https://www.linkedin.com/in/abhishek-softweredeveloper/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">LinkedIn</a></li>
+              <li><a href="mailto:abhit0396@gmail.com" className="hover:text-white transition">Email</a></li>
+              <li><a href="https://github.com/Abhishek-69889" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
 
-  {/* Bottom Bar */}
-  <div className="border-t text-center text-gray-500 text-sm py-4">
-    <p>
-      Made with ❤️ by Abhishek Tiwari | © {new Date().getFullYear()} <span className='text-blue-500 font-bold text-lg'>VedX Coding School</span>. All rights reserved.
-    </p>
-  </div>
-</footer>
-
+        <div className="border-t border-gray-700 text-center text-sm py-4">
+          <p>
+            Made with ❤️ by Abhishek Tiwari | © {new Date().getFullYear()} <span className="text-purple-400 font-bold">VedX Coding School</span>. All rights reserved.
+          </p>
+        </div>
+      </footer>
     </div>
   );
 };

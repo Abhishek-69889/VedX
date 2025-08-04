@@ -31,19 +31,24 @@ const Cpp = () => {
   };
 
   return (
-    <div className="min-h-screen p-6 bg-gray-100">
-      <h1 className="text-3xl font-bold text-center mb-6">C++ Roadmap</h1>
-      <div className="bg-white shadow-md rounded-lg p-6 max-w-3xl mx-auto">
-        <ul className="space-y-2">
+    <div className="min-h-screen bg-gray-100 dark:bg-[#0e0e0e] flex items-center justify-center p-4">
+      <div className="w-full max-w-3xl bg-white dark:bg-[#1f1f1f] p-6 rounded-xl shadow space-y-6">
+        <h1 className="text-3xl font-bold text-center text-black dark:text-white">
+          C++ Roadmap
+        </h1>
+
+        <ul className="space-y-3">
           {roadmapData.map((topic, index) => (
             <li key={index} className="flex items-center space-x-3">
               <input
                 type="checkbox"
                 checked={checkedItems[topic]}
                 onChange={() => toggleCheckbox(topic)}
-                className="h-4 w-4"
+                className="h-4 w-4 accent-blue-600"
               />
-              <label className="text-gray-800 text-sm">{topic}</label>
+              <label className="text-sm text-gray-800 dark:text-gray-200">
+                {topic}
+              </label>
             </li>
           ))}
         </ul>

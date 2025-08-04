@@ -9,7 +9,6 @@ const countQuestionsFromTopics = (topics = []) =>
     0
   );
 
-
 const dataLoaders = {
   google: () => import("../../Pages/DSAPRACTICE/GOOGLE/Google.json"),
   microsoft: () => import("../../Pages/DSAPRACTICE/Microsoft/Microsoft.json"),
@@ -21,10 +20,9 @@ const dataLoaders = {
 
 const DsaSection = () => {
   const navigate = useNavigate();
-  const [counts, setCounts] = useState({});          // {google: 65, amazon: 42, ...}
+  const [counts, setCounts] = useState({});
   const [loading, setLoading] = useState(true);
 
-  // Load all counts once (on mount)
   useEffect(() => {
     let isMounted = true;
 
@@ -32,13 +30,13 @@ const DsaSection = () => {
       const entries = await Promise.all(
         Object.entries(dataLoaders).map(async ([key, loader]) => {
           try {
-            const mod = await loader();                 // JSON default export
-            const topics = mod.default ?? mod;          // handle both default & named
+            const mod = await loader();
+            const topics = mod.default ?? mod;
             const total = countQuestionsFromTopics(topics);
             return [key, total];
           } catch (err) {
             console.error(`Error loading ${key} data:`, err);
-            return [key, 0];                            // fallback
+            return [key, 0];
           }
         })
       );
@@ -69,32 +67,32 @@ const DsaSection = () => {
     return `${n} Q${n === 1 ? "" : "s"}`;
   };
 
+  const handleCardClick = (path) => {
+    navigate(path);
+  };
+
   return (
-    <div id="dsa">
-      <h1 className="text-3xl text-center mt-12 font-semibold text-gray-900">
+    <div id="dsa" className="bg-white dark:bg-[#0e0e0e] py-12">
+      <h1 className="text-3xl text-center font-semibold text-gray-900 dark:text-white">
         Company-Specific DSA Prep
       </h1>
-      <p className="text-md sm:text-xl lg:text-md font-medium mt-2 mx-3 text-gray-600">
+      <p className="text-md sm:text-xl lg:text-md font-medium mt-2 mx-3 text-gray-600 dark:text-gray-400 text-center">
         Practice real interview problems from your dream companies.
       </p>
 
-      <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
-        {items.map((item) => (
+      <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 p-6 max-w-6xl mx-auto">
+        {items.map((item, index) => (
           <div
-            key={item.key}
-            onClick={() => navigate(item.path)}
-            className="p-6 bg-white rounded-xl shadow hover:shadow-md hover:scale-105 hover:bg-blue-50 transition-transform duration-300 cursor-pointer"
+            key={index}
+            onClick={() => handleCardClick(item.path)}
+            className="p-6 bg-[#1A1A1A] rounded-2xl border border-gray-700 shadow-md hover:shadow-lg hover:scale-[1.02] hover:bg-[#1F1F1F] transition-all duration-300 cursor-pointer"
           >
-            <h2 className="text-xl font-semibold mb-2 text-blue-600 flex items-center justify-between">
-              <span>{item.title}</span>
-              <span className="ml-2 inline-block text-xs font-bold text-blue-800 bg-blue-100 px-2 py-0.5 rounded-full">
-                {getLabel(item.key)}
-              </span>
+            <h2 className="text-xl font-semibold mb-2 text-[#00FFFF]">
+              {item.title} <span className="text-sm font-semibold mb-2 text-[#336b6b]">{getLabel(item.key)} </span>
             </h2>
-            <p className="text-gray-700 text-sm">
-              Boost your prep with expert-selected resources for{" "}
-              <span className="font-semibold text-blue-600">{item.title}</span>{" "}
-              interview.
+            <p className="text-gray-300 text-sm">
+              • Boost your prep with expert-selected resources in{" "}
+              <span className="font-semibold text-[#00FFFF]">{item.title}</span>.
             </p>
           </div>
         ))}

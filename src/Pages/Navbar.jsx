@@ -5,6 +5,7 @@ import logo from "../assets/vedxians.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+
   const navLinks = [
     { name: 'Roadmaps', href: '#roadmap' },
     { name: 'Practice', href: '#yt' },
@@ -13,18 +14,19 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="w-full bg-white shadow-md px-4 py-3 fixed top-0 left-0 z-50">
+    <nav className="w-full bg-[#1A1A1A]/80 shadow-md px-4 py-3 fixed top-0 left-0 z-50 border-b border-gray-700">
       <div className="max-w-7xl mx-auto flex items-center justify-between flex-wrap">
-        {/* Logo Section */}
+        
+        {/* Logo */}
         <div className="flex items-center gap-2">
           <img src={logo} alt="VedX Logo" className="w-10 h-10" />
-          <span className="text-xl font-bold text-blue-600">VedX Coding School</span>
+          <span className="glowing text-xl font-bold text-[#00FFFF]">VedX Coding School</span>
         </div>
 
         {/* Hamburger Icon */}
         <div className="block md:hidden">
           <button
-            className="text-2xl text-gray-800 focus:outline-none"
+            className="text-2xl text-gray-200 focus:outline-none"
             onClick={() => setMenuOpen(!menuOpen)}
           >
             {menuOpen ? <FaTimes /> : <FaBars />}
@@ -32,10 +34,13 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex items-center gap-6 font-semibold text-gray-800 text-md">
+        <ul className="hidden md:flex items-center gap-6 font-semibold text-gray-300 text-md">
           {navLinks.map((link) => (
             <li key={link.name}>
-              <a href={link.href} className="hover:text-blue-600">
+              <a
+                href={link.href}
+                className="hover:text-[#00FFFF] transition-colors duration-300"
+              >
                 {link.name}
               </a>
             </li>
@@ -43,7 +48,9 @@ const Navbar = () => {
           <li>
             <a
               href="https://www.youtube.com/@Vedxians"
-              className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-full text-sm sm:text-base font-semibold hover:scale-105 hover:shadow-xl transition-all duration-300 shadow-lg"
             >
               YouTube
             </a>
@@ -52,12 +59,12 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {menuOpen && (
-          <div className="w-full mt-4 md:hidden bg-white rounded-md shadow-md p-4 space-y-3 text-gray-800 text-md">
+          <div className="w-full mt-4 md:hidden  rounded-md shadow-md p-4 space-y-3 text-gray-300 text-md ">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className="block py-1 hover:text-blue-600"
+                className="block py-1 hover:text-[#00FFFF] transition-colors duration-300"
                 onClick={() => setMenuOpen(false)}
               >
                 {link.name}
@@ -65,7 +72,9 @@ const Navbar = () => {
             ))}
             <a
               href="https://www.youtube.com/@Vedxians"
-              className="inline-block mt-2 bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-full text-sm sm:text-base font-semibold hover:scale-105 hover:shadow-xl transition-all duration-300 shadow-lg"
               onClick={() => setMenuOpen(false)}
             >
               YouTube

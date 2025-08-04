@@ -1,0 +1,25 @@
+@keyframes glow {
+  0%, 100% { text-shadow: 0 0 10px #00a6c6, 0 0 20px #00a6c6, 0 0 30px #00a6c6; }
+  50% { text-shadow: 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff; }
+}
+
+.glowing {
+  animation: glow 2s infinite;
+  color: #00a6c6;
+}
+
+@keyframes typingWordByWord {
+  0% { content: "Coding"; }
+  25% { content: "Creating"; }
+  50% { content: "Building"; }
+  75% { content: "Exploring"; }
+  100% { content: "Coding"; }
+}
+
+.typing::after {
+  content: "Code";
+  animation: typingWordByWord 6s infinite;
+  color: #00a6c6;
+  text-shadow: 0 0 10px #00a6c6, 0 0 20px #00a6c6;
+  font-style: italic;
+}
