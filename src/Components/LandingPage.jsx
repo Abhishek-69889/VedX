@@ -52,12 +52,12 @@ const LandingPage = () => {
     {/* CTA Button */}
     <div>
       <a
-        href="https://www.youtube.com/watch?v=lfOat53fFL8&t=2s"
+        href="https://www.instagram.com/vedx_coding_school/"
         target="_blank"
         rel="noopener noreferrer"
         className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 sm:px-8 py-4 my-10 sm:py-4 rounded-full text-sm sm:text-base font-semibold hover:scale-105 hover:shadow-xl transition-all duration-300 shadow-lg inline-block"
       >
-        🎬 Watch Introduction
+        Follow on Instagram
       </a>
     </div>
   </div>
