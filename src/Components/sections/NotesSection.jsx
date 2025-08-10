@@ -28,7 +28,7 @@ const NotesSection = ({ onCardClick }) => {
   };
 
   return (
-    <div id="note" className="bg-[#0D0D0D] ] py-10">
+    <div id="note" className="bg-[#0D0D0D]  py-10">
       <h1 className="text-3xl sm:text-2xl text-center font-semibold tracking-tight text-white">
         Instant Revision Notes
       </h1>
