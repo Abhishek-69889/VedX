@@ -22,6 +22,12 @@ const DsaSection = () => {
       path: "/FrontendPractice",
       des: "Practice frontend step by step to master it and become pro in frontend.",
       external: false
+    },
+    {
+      title: "C++ Practice",
+      path: "/cpp",
+      des: "Practice c++ step by step to master it and become pro in CPP.",
+      external: false
     }
   ];
 

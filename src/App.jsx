@@ -19,6 +19,7 @@ import CppDsaRoadmap from './Pages/Roadmap/DSA/CppDsaRoadmap';
 import CPPNotes from './Pages/Notes/CPP/Content'; 
 import Cpp from './Pages/Roadmap/Language/Cpp';
 import FrontendPractice from './Pages/FrontendPractice/FrontendPractice';
+import CPP from './Pages/LangPractice/CPP';
 
 // DSA Practice section
 
@@ -55,6 +56,7 @@ function App() {
         {/* Practice routes */}
 
         <Route path="/FrontendPractice" element={<FrontendPractice />} />
+        <Route path="/cpp" element={<CPP />} />
 
 
         {/* DSA Routes */}
