@@ -1,0 +1,50 @@
+[
+  {
+    "id": "stage-htmlcss",
+    "title": "HTML + CSS",
+    "description": "Perfect layouts, design systems, CSS animations (no JS).",
+    "projects": [
+      { "id": "h1", "difficulty": "Beginner", "title": "Portfolio Website" },
+      { "id": "h2", "difficulty": "Beginner", "title": "Glassmorphism Login Page" },
+      { "id": "h3", "difficulty": "Beginner", "title": "Personal Branding Page" },
+      { "id": "h4", "difficulty": "Intermediate", "title": "Creative Resume Website" },
+      { "id": "h5", "difficulty": "Intermediate", "title": "Modern Product Landing Page" },
+      { "id": "h6", "difficulty": "Intermediate", "title": "Photography Gallery (Masonry)" },
+      { "id": "h7", "difficulty": "Advanced", "title": "Animated Agency Portfolio" },
+      { "id": "h8", "difficulty": "Advanced", "title": "CSS-Only Interactive Infographic" },
+      { "id": "h9", "difficulty": "Advanced", "title": "Magazine-Style Blog Page" }
+    ]
+  },
+  {
+    "id": "stage-htmlcssjs",
+    "title": "HTML + CSS + JavaScript",
+    "description": "Interactivity, DOM, APIs, and UI components.",
+    "projects": [
+      { "id": "j1", "difficulty": "Beginner", "title": "Animated Navigation Menu" },
+      { "id": "j2", "difficulty": "Beginner", "title": "Countdown Timer Landing Page" },
+      { "id": "j3", "difficulty": "Beginner", "title": "Custom Image Carousel" },
+      { "id": "j4", "difficulty": "Intermediate", "title": "Crypto Price Tracker Dashboard" },
+      { "id": "j5", "difficulty": "Intermediate", "title": "Recipe Search App" },
+      { "id": "j6", "difficulty": "Intermediate", "title": "YouTube Playlist Explorer" },
+      { "id": "j7", "difficulty": "Advanced", "title": "Music Player Web App" },
+      { "id": "j8", "difficulty": "Advanced", "title": "Movie Search & Details App" },
+      { "id": "j9", "difficulty": "Advanced", "title": "Custom Video Player" }
+    ]
+  },
+  {
+    "id": "stage-react",
+    "title": "React",
+    "description": "Components, hooks, routing, state management, real APIs.",
+    "projects": [
+      { "id": "r1", "difficulty": "Beginner", "title": "React Counter & Theme Toggle" },
+      { "id": "r2", "difficulty": "Beginner", "title": "Movie Trailer Search App" },
+      { "id": "r3", "difficulty": "Beginner", "title": "Instagram UI Clone" },
+      { "id": "r4", "difficulty": "Intermediate", "title": "Notion-Style Notes App" },
+      { "id": "r5", "difficulty": "Intermediate", "title": "Admin Dashboard" },
+      { "id": "r6", "difficulty": "Intermediate", "title": "Weather Forecast App" },
+      { "id": "r7", "difficulty": "Advanced", "title": "Full E-commerce Store" },
+      { "id": "r8", "difficulty": "Advanced", "title": "Real-time Chat App" },
+      { "id": "r9", "difficulty": "Advanced", "title": "React Admin Dashboard" }
+    ]
+  }
+]

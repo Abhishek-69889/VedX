@@ -18,6 +18,7 @@ import CppDsaRoadmap from './Pages/Roadmap/DSA/CppDsaRoadmap';
 // import PythonNotes from './Pages/Notes/Python/Content'; 
 import CPPNotes from './Pages/Notes/CPP/Content'; 
 import Cpp from './Pages/Roadmap/Language/Cpp';
+import FrontendPractice from './Pages/FrontendPractice/FrontendPractice';
 
 // DSA Practice section
 
@@ -49,6 +50,11 @@ function App() {
         <Route path="/react-notes" element={<ReactNotes />} />
         <Route path="/cpp-notes" element={<CPPNotes />} />
 
+
+
+        {/* Practice routes */}
+
+        <Route path="/FrontendPractice" element={<FrontendPractice />} />
 
 
         {/* DSA Routes */}
