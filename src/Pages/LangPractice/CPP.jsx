@@ -8,7 +8,7 @@ import React from "react";
 const resources = [
   {
     topic: "Conditional Statements – Practice Set",
-    href: "../../../public/downloads/cpp_conditional_practice_questions.pdf",
+    href: "/downloads/cpp_conditional_practice_questions.pdf",
     size: "PDF",
   },
 //   {
