@@ -11,11 +11,11 @@ const resources = [
     href: "/downloads/cpp_conditional_practice_questions.pdf",
     size: "PDF",
   },
-//   {
-//     topic: "If / Else Ladder – Cheatsheet",
-//     href: "/downloads/cpp-if-else-cheatsheet.pdf",
-//     size: "PDF",
-//   },
+  {
+    topic: "Loops – Practice Set",
+    href: "/downloads/Loops_Practice_Questions.pdf",
+    size: "PDF",
+  },
 //   {
 //     topic: "Switch Statement – Quick Guide",
 //     href: "/downloads/cpp-switch-guide.pdf",
