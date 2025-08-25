@@ -103,7 +103,6 @@ const LandingPage = () => {
           <div>
             <h3 className="text-md font-semibold text-[#00FFFF] mb-3">Connect</h3>
             <ul className="space-y-2">
-              <li><a href="https://abhishek-tportfolio.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">Portfolio</a></li>
               <li><a href="https://www.linkedin.com/in/abhishek-softweredeveloper/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">LinkedIn</a></li>
               <li><a href="mailto:abhit0396@gmail.com" className="hover:text-white transition">Email</a></li>
               <li><a href="https://github.com/Abhishek-69889" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">GitHub</a></li>
