@@ -1,0 +1,120 @@
+{
+  "roadmap_title": "GSAP Animation Mastery: From Beginner to Pro 🚀",
+  "storage_key": "gsapRoadmapCheckboxStates",
+  "phases": [
+    {
+      "phase_name": "Phase 1: GSAP Fundamentals (The Building Blocks)",
+      "focus": "Understand what GSAP is, core syntax, and how to animate elements smoothly.",
+      "topics": [
+        "Introduction to GSAP",
+        "What GSAP is & Why to Use It",
+        "Installing GSAP (CDN / NPM)",
+        "Basic GSAP Syntax (gsap.to(), gsap.from(), gsap.fromTo())",
+        "Targeting Elements (Selectors, DOM, Refs)",
+        "Core Properties (Basics): x, y, scale, rotate",
+        "Opacity, Width, Height, BackgroundColor, Color",
+        "Transformations: xPercent, yPercent, transformOrigin, Rotations (2D basics)",
+        "Timing & Easing: duration, delay, ease: 'power1.inOut'",
+        "Easing Types: Bounce, Elastic, Expo, Back",
+        "Understanding Transforms vs Margin/Top/Left (Performance)",
+        "Stagger Property Basics (stagger amount, direction, ease)",
+        "ImmediateRender, Overwrite, Repeat, Yoyo Properties",
+        "Repeat: -1 (Infinite loops), yoyo: true",
+        "Understanding paused, reversed, and repeatDelay",
+        "Performance Tips: GPU acceleration, will-change, autoAlpha"
+      ]
+    },
+    {
+      "phase_name": "Phase 2: Intermediate Level (Timelines, Control, and Utilities)",
+      "focus": "Learn sequencing, callbacks, and timeline control for complex animations.",
+      "topics": [
+        "GSAP Timelines: gsap.timeline()",
+        "Sequencing Animations and Overlapping ('-=0.5')",
+        "Chaining Multiple Tweens in a Timeline",
+        "Nested Timelines and Labels (.addLabel())",
+        "Advanced Positioning Parameters (>, <, +=, -=)",
+        "Controlling Timelines: .play(), .pause(), .reverse(), .restart()",
+        ".progress(), .time(), .seek(), .tweenTo()",
+        "Controlling Animations with Buttons and Events",
+        "Callbacks: onStart, onUpdate, onComplete, onRepeat, onReverseComplete",
+        "Timeline Callbacks (event-specific)",
+        "Staggers: Direction ('start', 'center', 'end'), Grid-based Staggering",
+        "GSAP Utility Functions: gsap.utils.random(), wrap(), distribute(), selector()",
+        "Using gsap.utils.toArray() for NodeLists",
+        "gsap.set() (Jump elements to a state instantly)",
+        "Responsive animations with gsap.matchMedia()"
+      ]
+    },
+    {
+      "phase_name": "Phase 3: Advanced Level (Scroll, SVG, Motion, and Plugins)",
+      "focus": "Master ScrollTrigger, MotionPath, SVG animations, and advanced timeline control.",
+      "topics": [
+        "ScrollTrigger Plugin (Most Popular)",
+        "ScrollTrigger Setup and Syntax",
+        "Pinning Elements (pin: true)",
+        "Scrubbing (scrub: true or scrub: 1)",
+        "Trigger Positions (start, end)",
+        "Horizontal & Vertical Scrolling",
+        "Scroll-linked Animations",
+        "ScrollTrigger Callbacks (onEnter, onLeave, onEnterBack, onLeaveBack, onToggle, onUpdate)",
+        "ScrollSmoother Plugin (Smooth Parallax Scrolling)",
+        "MotionPath Plugin (Animating along SVG paths)",
+        "Rotation Alignment (autoRotate: true)",
+        "SplitText Plugin (Animating text by letters, words, lines)",
+        "Reveal Animations using SplitText",
+        "GSAP + SVG Animations (stroke-dasharray, stroke-dashoffset)",
+        "Morphing Shapes with MorphSVGPlugin",
+        "Advanced Timeline Control: Nested timelines, Labels, seek(), tweenTo()",
+        "ScrollTrigger + Timeline Integration",
+        "CustomEase Plugin (Custom Easing Curves)",
+        "Physics-based Animations (InertiaPlugin, PhysicsPropsPlugin)",
+        "QuickSetter (Optimizing rapid updates for smoother animations)",
+        "Using gsap.ticker and requestAnimationFrame"
+      ]
+    },
+    {
+      "phase_name": "Phase 4: Framework Integration and Utilities (Pro Workflows)",
+      "focus": "Integrate GSAP with modern frameworks and tools for real-world animation systems.",
+      "topics": [
+        "GSAP in React (useRef + useLayoutEffect)",
+        "GSAP in Next.js (SSR Handling)",
+        "GSAP in Vanilla JS Projects",
+        "Using gsap.defaults() for clean global configs",
+        "Using gsap.config() for default settings",
+        "Flip Plugin (State-based Animations)",
+        "Observer Plugin (Gestures, Scroll, Touch Detection)",
+        "Draggable Plugin (Drag/Drop with Inertia)",
+        "Combining GSAP + Locomotive Scroll",
+        "Combining GSAP + Lenis Smooth Scroll",
+        "Combining GSAP + Three.js (3D + GSAP Motion)",
+        "ScrollTrigger Advanced: scrollerProxy, normalizeScroll(), refresh(), kill()",
+        "Debugging with markers: true and ScrollTrigger.refresh()",
+        "Performance Optimization: batching, caching selectors, minimizing reflows",
+        "Integrating GSAP with Lottie or Canvas Animations",
+        "Using gsap.utils.wrap(), random(), clamp(), interpolate(), snap()",
+        "Exporting animations as reusable JS modules"
+      ]
+    },
+    {
+      "phase_name": "Phase 5: Master Level (Pro Animations & Real Projects)",
+      "focus": "Create professional, storytelling, and high-performance GSAP animations.",
+      "topics": [
+        "Building Complex Landing Page Animations (Hero, Navbar, Text)",
+        "Advanced Scroll-based Storytelling Websites",
+        "SVG + GSAP Interactive Animations",
+        "3D-like Effects with CSS Transforms + GSAP",
+        "Cursor Animations (Magnetic Buttons, Follow Effects)",
+        "Text Reveal Animations with SplitText + Timeline",
+        "Menu Transitions and Overlay Animations (from/fromTo usage)",
+        "Intro Loader Animations (stagger + timeline combo)",
+        "Parallax Sections using ScrollTrigger + Multiple Layers",
+        "GSAP + Three.js for Advanced 3D Motion",
+        "Creating a Scroll-based Hero Scene (ScrollTrigger + Timeline)",
+        "Building a GSAP Animation Manager for Multi-section Sites",
+        "Performance Debugging with GSDevTools Plugin",
+        "Combining GSAP + WebGL / Canvas for Next-Level Effects",
+        "Deploying GSAP Projects (CodePen → Netlify → Production)"
+      ]
+    }
+  ]
+}

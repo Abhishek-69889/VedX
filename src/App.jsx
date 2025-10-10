@@ -13,13 +13,18 @@ import Microsoft from './Pages/DSAPRACTICE/Microsoft/Microsoft';
 import Wipro from './Pages/DSAPRACTICE/Wipro/Wipro';
 import Tcs from './Pages/DSAPRACTICE/TCS/Tcs';
 import Pattern from './Pages/DSAPRACTICE/Patterns/Pattern';
-import CppDsaRoadmap from './Pages/Roadmap/DSA/CppDsaRoadmap';
 // import DSANotes from './Pages/Notes/DSA/Content'; 
 // import PythonNotes from './Pages/Notes/Python/Content'; 
 import CPPNotes from './Pages/Notes/CPP/Content'; 
 import Cpp from './Pages/Roadmap/Language/Cpp';
 import FrontendPractice from './Pages/FrontendPractice/FrontendPractice';
 import CPP from './Pages/LangPractice/CPP';
+import PythonRoadmap from './Pages/Roadmap/Language/Python';
+import DSARoadmap from './Pages/Roadmap/DSA/CppDsaRoadmap';
+import CppDsaRoadmap from './Pages/Roadmap/DSA/CppDsaRoadmap';
+import PythonDsaRoadmap from './Pages/Roadmap/DSA/PythonDsaRoadmap';
+import GSAPRoadmap from './Pages/Roadmap/Animation/GSAPRoadmap';
+import GSAPPractice from './Pages/AnimationPractice/GSAP/GSAPPractice';
 
 // DSA Practice section
 
@@ -57,6 +62,7 @@ function App() {
 
         <Route path="/FrontendPractice" element={<FrontendPractice />} />
         <Route path="/cpp" element={<CPP />} />
+        <Route path="/gsappractice" element={<GSAPPractice />} />
 
 
         {/* DSA Routes */}
@@ -71,8 +77,14 @@ function App() {
 
         {/* Roadmap routes. */}
 
-        <Route path='DSA' element={<CppDsaRoadmap />} />
+        <Route path='DSA' element={<CppDsaRoadmap/>} />
+        <Route path='PythonDSA' element={<PythonDsaRoadmap/>} />
         <Route path='cpp-roadmap' element={<Cpp />} />
+        <Route path='python-roadmap' element={<PythonRoadmap />} />
+
+
+        {/* Animation roadmap */}
+        <Route path='gsap' element={<GSAPRoadmap />} />
       </Routes>
     </Router>
   );

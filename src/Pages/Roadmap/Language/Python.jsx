@@ -1,16 +1,18 @@
 import React, { useEffect, useState, useMemo } from 'react';
-// Note: File name 'CppData.json' is preserved as requested
-import roadmapRaw from './CppData.json';
+// 1. IMPORT THE EXTERNAL JSON FILE
+import roadmapRaw from './PythonData.json';
 
 // --- Data Preparation Logic ---
 
-// Flattens all topics (including specialization paths) into a single array for state key initialization.
+// Flatten the entire roadmap into a simple array of all unique topics for state management keys.
 const getAllTopics = (data) => {
   const allTopics = [];
   data.stages.forEach(stage => {
+    // Add topics from standard stages
     if (stage.topics) {
       allTopics.push(...stage.topics);
     }
+    // Add topics from specialization sub-paths
     if (stage.sub_paths) {
       stage.sub_paths.forEach(path => {
         // Create a composite key for specialization topics: "Path: Technology"
@@ -24,9 +26,10 @@ const getAllTopics = (data) => {
 
 // --- React Component ---
 
-const Cpp = () => {
-  const storageKey = 'cppRoadmapCheckboxStates'; // Use a specific key
-
+const PythonRoadmap = () => {
+  // Use a specific key for Python roadmap state
+  const storageKey = 'pythonRoadmapCheckboxStates';
+  
   // Memoize the list of all topics from the imported JSON
   const allTopics = useMemo(() => getAllTopics(roadmapRaw), []);
 
@@ -34,7 +37,7 @@ const Cpp = () => {
   const getInitialState = () => {
     const saved = localStorage.getItem(storageKey);
     if (saved) return JSON.parse(saved);
-
+    
     // Initialize state with all topics set to false
     return allTopics.reduce((acc, topic) => {
       acc[topic] = false;
@@ -61,19 +64,18 @@ const Cpp = () => {
   const renderTopics = (topics) => (
     <ul className="space-y-2 list-none p-0">
       {topics.map((topic, index) => {
-        const topicKey = topic; // The topic string itself is the key
-
+        // topicKey will be the topic string itself or the composite key for specializations
+        const topicKey = topic; 
+        
         return (
           <li key={index} className="flex items-start space-x-3">
             <input
               type="checkbox"
               checked={checkedItems[topicKey] || false}
               onChange={() => toggleCheckbox(topicKey)}
-              // Styling for dark theme consistency
-              className="mt-1 h-4 w-4 accent-blue-600 dark:accent-cyan-400 flex-shrink-0" 
+              className="mt-1 h-4 w-4 accent-blue-600 dark:accent-cyan-400 flex-shrink-0"
             />
             <label 
-              // Apply line-through for completed items
               className={`text-base text-gray-800 dark:text-gray-200 cursor-pointer ${checkedItems[topicKey] ? 'line-through opacity-60' : ''}`}
               onClick={() => toggleCheckbox(topicKey)}
             >
@@ -86,13 +88,12 @@ const Cpp = () => {
   );
 
   return (
-    // Update div styling for a more structured look
     <div className="min-h-screen dark:bg-[#0e0e0e] flex items-center justify-center p-4">
       <div className="w-full max-w-4xl dark:bg-[#1f1f1f] p-8 rounded-xl shadow-2xl space-y-8 border border-[#2c2c2c]">
-
+        
         {/* Title */}
         <h1 className="text-4xl font-extrabold text-center text-black dark:text-cyan-400 border-b-2 border-cyan-400 pb-3">
-          {roadmapRaw.roadmap_title || "C++ Roadmap"}
+          {roadmapRaw.roadmap_title}
         </h1>
 
         {/* Stages Mapping */}
@@ -104,14 +105,14 @@ const Cpp = () => {
             <p className="text-sm italic dark:text-gray-400 ml-4">
               Focus: {stage.focus}
             </p>
-
+            
             {/* Standard Topics List */}
             {stage.topics && (
               <div className="ml-4">
                 {renderTopics(stage.topics)}
               </div>
             )}
-
+            
             {/* Specialization Sub-Paths */}
             {stage.sub_paths && (
               <div className="ml-4 space-y-4 pt-2">
@@ -133,4 +134,4 @@ const Cpp = () => {
   );
 };
 
-export default Cpp;
+export default PythonRoadmap;

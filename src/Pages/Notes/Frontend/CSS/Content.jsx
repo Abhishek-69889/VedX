@@ -78,7 +78,8 @@ const sections = [
     id: "grid",
     title: "CSS Grid",
     content: "CSS Grid is a two-dimensional layout system for defining both rows and columns. Use display: grid; and define grid-template-rows, grid-template-columns, gap, and grid-area for layout control.",
-    link: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout"
+    link: "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout",
+    // file: "/files/grid.pdf"
   },
   {
     id: "media-queries",
@@ -187,42 +188,59 @@ const sections = [
 
 
 const Content = () => {
-    return (
-        <>
+  return (
+    <>
+      <div className="flex flex-col md:flex-row min-h-screen bg-gray-50">
+        {/* Sidebar */}
+        <div className="md:w-64 md:h-screen md:fixed md:top-0 md:left-0 z-40 bg-white border-r border-gray-200">
+          <Sidebar />
+        </div>
 
-            <div className="flex flex-col md:flex-row min-h-screen bg-gray-50">
-                <div className="md:w-64 md:h-screen md:fixed md:top-0 md:left-0 z-40 bg-white border-r border-gray-200">
-                    <Sidebar />
-                </div>
+        {/* Main Content */}
+        <main className="flex-1 p-6 mt-4 md:mt-0 md:ml-64">
+          <div className="max-w-4xl mx-auto">
+            {sections.map((section) => (
+              <section key={section.id} id={section.id} className="mb-12 scroll-mt-20">
+                <h2 className="text-2xl font-semibold text-blue-700 mb-2">
+                  {section.title}
+                </h2>
+                <p className="text-gray-700 whitespace-pre-line">{section.content}</p>
 
-                {/* Content Area: with margin-left on md screens to accommodate sidebar */}
-                <main className="flex-1 p-6 mt-4 md:mt-0 md:ml-64">
-                    <div className="max-w-4xl mx-auto">
-                        {sections.map((section) => (
-                            <section key={section.id} id={section.id} className="mb-12 scroll-mt-20">
-                                <h2 className="text-2xl font-semibold text-blue-700 mb-2">{section.title}</h2>
-                                <p className="text-gray-700 whitespace-pre-line">{section.content}</p>
-                                <div className='flex items-center gap-2'>
+                {/* Show external link */}
+                {section.link && (
+                  <div className="mt-2">
+                    <a
+                      href={section.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 underline"
+                    >
+                      Visit Resource
+                    </a>
+                  </div>
+                )}
 
-                                <p className=" mt-2">For a more detailed explanation, please visit </p>
-                                {section.link && (
-                                    <a
-                                        href={section.link}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="text-blue-600 underline mt-2 inline-block"
-                                    >
-                                        MDN Web Docs
-                                    </a>
-                                )}
-                                </div>
-                            </section>
-                        ))}
-                    </div>
-                </main>
-            </div>
-        </>
-    );
+                {/* Show file as link */}
+                {section.file && (
+                  <div className="mt-2">
+                    <a
+                      href={section.file}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 underline"
+                    >
+                      Open {section.file.split("/").pop()}
+                    </a>
+                  </div>
+                )}
+              </section>
+            ))}
+          </div>
+        </main>
+      </div>
+    </>
+  );
 };
+
 
 export default Content;

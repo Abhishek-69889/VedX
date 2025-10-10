@@ -1,0 +1,95 @@
+{
+  "roadmap_title": "Data Structures and Algorithms (DSA) Mastery Path 🧠",
+  "storage_key": "dsaRoadmapCheckboxStates",
+  "phases": [
+    {
+      "phase_name": "Phase 1: Foundational Concepts and Arrays",
+      "focus": "Efficiency, Low-Level Operations, and Basic Structures",
+      "topics": [
+        "Time & Space Complexity (Big O, Big Theta, Big Omega)",
+        "Mathematics for DSA (GCD, LCM, Modular Arithmetic, Prime Sieve)",
+        "Bitwise Manipulation (AND, OR, XOR, Shifts, Bit Tricks)",
+        "Array and String theory",
+        "Recursion Basics: Base Case and Recursive Step",
+        "Linear Search and Binary Search (Iterative & Recursive)",
+        "Arrays: Two Pointers Technique",
+        "Arrays: Sliding Window Technique",
+        "Arrays: Prefix & Suffix Sums",
+        "Kadane's Algorithm (Maximum Subarray Sum)",
+        "Dutch National Flag (DNF) Algorithm (Sorting 0s, 1s, and 2s)",
+        "Sorting Algorithms (Merge, Quick, Heap, Counting, Radix, Bucket)",
+        "Binary Search Applications (Peak Element, Aggressive Cows, Allocate Books)"
+      ]
+    },
+    {
+      "phase_name": "Phase 2: Linear Structures and Recursion",
+      "focus": "Sequential Data Handling and Backtracking",
+      "topics": [
+        "Linked Lists (Singly, Doubly, Circular)",
+        "Linked Lists: Reverse, Middle, Merge Two Sorted Lists",
+        "Linked Lists: Cycle Detection (Floyd’s Algorithm)",
+        "Stacks: Implementation and Applications (Next Greater Element, Valid Parentheses, Stock Span)",
+        "Queues: Simple, Circular, Deque, and Priority Queue",
+        "Hashing: Hash Map/Dictionary and Hash Set",
+        "Hashing Applications: Two Sum, Group Anagrams, Subarray Sum Problems",
+        "Strings: Pattern Matching (KMP, Rabin-Karp)",
+        "Strings: Palindromes, Anagrams, Frequency Maps",
+        "Backtracking: Subsets, Combinations, N-Queens, Sudoku Solver",
+        "Recursion: Tower of Hanoi, Generating Permutations/Combinations"
+      ]
+    },
+    {
+      "phase_name": "Phase 3: Trees and Graphs",
+      "focus": "Hierarchical and Non-Linear Data Models",
+      "topics": [
+        "Binary Trees (BT): Representation, Traversals (Inorder, Preorder, Postorder - Recursive/Iterative)",
+        "Binary Search Trees (BST): Insertion, Deletion, Validation, LCA, Kth Smallest",
+        "Heaps: Min/Max Heap Implementation and Heap Sort",
+        "Priority Queue Applications (K-th Largest, Merge K Sorted Lists)",
+        "Tries (Prefix Trees): Insert, Search, Delete, Word Suggestions",
+        "Graphs: Adjacency List/Matrix Representation",
+        "Graphs: BFS and DFS Traversal",
+        "Topological Sort (Kahn’s Algorithm and DFS Method)",
+        "Cycle Detection in Graphs (Directed & Undirected)",
+        "Disjoint Set Union (Union-Find) with Path Compression and Rank",
+        "Shortest Path Algorithms: Dijkstra, Bellman-Ford, Floyd-Warshall",
+        "Minimum Spanning Trees: Prim’s and Kruskal’s Algorithms"
+      ]
+    },
+    {
+      "phase_name": "Phase 4: Advanced Algorithms and Optimization",
+      "focus": "Dynamic Programming, Greedy, Divide & Conquer, and Advanced Problems",
+      "topics": [
+        "Dynamic Programming Basics: Memoization vs Tabulation",
+        "DP Patterns: 1D DP, 2D DP, and State Optimization",
+        "DP Classic Problems: Fibonacci, Climbing Stairs, House Robber, Coin Change, LCS, LIS, 0/1 Knapsack",
+        "Matrix DP: Minimum Path Sum, Unique Paths, Edit Distance",
+        "Greedy Algorithms: Activity Selection, Huffman Coding, Job Sequencing",
+        "Divide and Conquer: Merge Sort, Quick Sort, Binary Search Variants",
+        "Bitmasking and Subset DP",
+        "Mathematical Algorithms: Fast Exponentiation, Modular Inverse",
+        "Prefix Function & Z-Algorithm for String Matching",
+        "Game Theory Basics (Nim Game, Grundy Numbers)",
+        "Segment Tree and Fenwick Tree (BIT) for Range Queries",
+        "Union-Find Applications: Kruskal, Connected Components",
+        "Top Interview Problems Mix: Trapping Rain Water, Rotate Image, Merge Intervals"
+      ]
+    },
+    {
+      "phase_name": "Phase 5: Real-World & System-Level DSA",
+      "focus": "Scalable Structures and Problem Solving for Competitive/Interview Use",
+      "topics": [
+        "Advanced Trees: AVL, Red-Black, and Binary Indexed Trees",
+        "Graphs: Strongly Connected Components (Kosaraju’s / Tarjan’s Algorithm)",
+        "Graphs: Bridges and Articulation Points",
+        "Trie + Bit Manipulation Problems (Maximum XOR Pair)",
+        "Advanced Sliding Window (Variable Length, Distinct Characters)",
+        "Monotonic Stack and Monotonic Queue Patterns",
+        "Reservoir Sampling and Randomized Algorithms",
+        "Advanced DP: DP on Trees, DP with Bitmask, DP on Subsequences",
+        "Advanced Greedy and Interval Scheduling",
+        "Mathematical Optimization and Combinatorics in Problems"
+      ]
+    }
+  ]
+}

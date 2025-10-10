@@ -1,0 +1,71 @@
+{
+  "roadmap_title": "Python Developer Learning Path: Basic to Advanced",
+  "stages": [
+    {
+      "stage_name": "Stage 1: Basic Fundamentals",
+      "focus": "Core Syntax and Control Flow",
+      "topics": [
+        "Installation and Setup (VS Code/IDE)",
+        "Variables, Data Types (int, float, str, bool)",
+        "Operators (Arithmetic, Comparison, Logical)",
+        "Bitwise Operations (Shifting, AND, OR, XOR)",
+        "Control Flow (if/elif/else)",
+        "Loops (for, while, break, continue)",
+        "Basic Built-in Data Structures (Lists, Tuples, Dictionaries, Sets)",
+        "Functions (Defining, Arguments, return statement)",
+        "Basic File I/O (Read/Write text files)"
+      ]
+    },
+    {
+      "stage_name": "Stage 2: Intermediate Proficiency",
+      "focus": "Object-Oriented Programming and Pythonic Practices",
+      "topics": [
+        "Object-Oriented Programming (OOP)",
+        "Classes and Objects",
+        "Inheritance, Encapsulation, Polymorphism",
+        "Magic Methods (Dunder Methods like __init__, __str__)",
+        "Modules and Packages (Creating and Importing)",
+        "Exception Handling (try/except/finally)",
+        "List, Dictionary, and Set Comprehensions",
+        "Virtual Environments (venv/conda/pipenv)",
+        "Basic Debugging and Unit Testing (unittest/pytest)"
+      ]
+    },
+    {
+      "stage_name": "Stage 3: Advanced Mastery",
+      "focus": "Performance, Concurrency, and Specialized Concepts",
+      "topics": [
+        "Functional Programming Concepts (map, filter, reduce)",
+        "Lambda Functions",
+        "Decorators and Closures",
+        "Generators and Iterators (the 'yield' keyword)",
+        "Context Managers (the 'with' statement)",
+        "Concurrency and Parallelism (Threading, Multiprocessing, GIL)",
+        "Asynchronous Programming (asyncio, async/await)",
+        "Advanced Data Structures & Algorithms (Trees, Graphs, Time Complexity)",
+        "Type Hinting and Static Analysis (mypy)",
+        "Metaclasses and Descriptors (Python Internals)",
+        "Understanding __slots__ for memory optimization",
+        "Method Resolution Order (MRO) in multiple inheritance"
+      ]
+    },
+    {
+      "stage_name": "Stage 4: Specialization",
+      "focus": "Applying Python in a Domain",
+      "sub_paths": [
+        {
+          "path": "Web Development",
+          "technologies": ["Django", "Flask/FastAPI", "SQLAlchemy (ORM)", "REST APIs"]
+        },
+        {
+          "path": "Data Science / Machine Learning",
+          "technologies": ["NumPy", "Pandas", "Matplotlib/Seaborn", "Scikit-learn", "TensorFlow/PyTorch"]
+        },
+        {
+          "path": "DevOps / Automation",
+          "technologies": ["OS/Subprocess module", "YAML/JSON handling", "Cloud APIs (boto3)", "Docker/Kubernetes scripting"]
+        }
+      ]
+    }
+  ]
+}

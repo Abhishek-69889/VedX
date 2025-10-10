@@ -28,6 +28,12 @@ const DsaSection = () => {
       path: "/cpp",
       des: "Practice c++ step by step to master it and become pro in CPP.",
       external: false
+    },
+    {
+      title: "GSAP Task",
+      path: "/gsappractice",
+      des: "Practice GSAP by task to master it and become pro in GSAP.",
+      external: false
     }
   ];
 

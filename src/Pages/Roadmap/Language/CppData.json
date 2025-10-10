@@ -1,43 +1,73 @@
 {
-  "cpp_topics": [
+  "roadmap_title": "C++ Developer Learning Path: Basic to Advanced",
+  "stages": [
     {
-      "month": "Month 1",
+      "stage_name": "Stage 1: Basic Fundamentals",
+      "focus": "Core Syntax and Structured Programming",
       "topics": [
-        "Introduction",
-        "Input/Output",
-        "Variables & Data Types",
-        "Operators & Expressions",
-        "Conditional Statements",
+        "Introduction, Setup (Compilers, IDE)",
+        "Input/Output (cin, cout)",
+        "Variables, Data Types, and Type Casting",
+        "Operators and Expressions",
+        "Bitwise Manipulation (AND, OR, XOR, NOT, Shifts)",
+        "Conditional Statements (if/else, switch)",
         "Loops (for, while, do-while)",
-        "Functions",
-        "Switch Statement",
-        "Binary Number System",
-        "Bitwise Operator",
-        "Scope",
-        "Data type modifier",
-        "Recursion",
-        "Arrays",
-        "Strings"
+        "Functions (Overloading, Call by Value/Reference)",
+        "Arrays and Multidimensional Arrays",
+        "Strings (C-style and std::string)",
+        "Introduction to Pointers and References"
       ]
     },
     {
-      "month": "Month 2",
-      "topics": [
-        "Pointers and References",
-        "Dynamic Memory Allocation",
-        "Structures",
-        "STL Iterators"
-      ]
-    },
-    {
-      "month": "Month 3",
+      "stage_name": "Stage 2: Intermediate Proficiency",
+      "focus": "Object-Oriented Programming (OOP) and STL Basics",
       "topics": [
         "Classes & Objects",
-        "Constructors & Destructors",
-        "Encapsulation",
-        "Abstraction",
-        "Inheritance (Basic)",
-        "Polymorphism (Basic)"
+        "Constructors, Destructors, Copy Constructor",
+        "Encapsulation (Access Specifiers)",
+        "Inheritance (Single, Multiple, Hierarchical)",
+        "Polymorphism (Function Overriding)",
+        "Virtual Functions and Pure Virtual Functions (Abstract Classes)",
+        "Dynamic Memory Allocation (new and delete)",
+        "Templates (Function and Class Templates)",
+        "Introduction to STL Containers (Vector, List, Map)",
+        "STL Iterators and Algorithms"
+      ]
+    },
+    {
+      "stage_name": "Stage 3: Advanced Mastery",
+      "focus": "Advanced Language Features and Memory Management",
+      "topics": [
+        "Operator Overloading",
+        "Friend Functions and Friend Classes",
+        "Exception Handling (try, catch, throw)",
+        "File Handling (ifstream, ofstream, fstream)",
+        "C++ IO Streams and Manipulators (std::endl, std::setw)",
+        "Run-Time Type Information (RTTI)",
+        "Namespaces",
+        "Smart Pointers (std::unique_ptr, std::shared_ptr, std::weak_ptr)",
+        "Lambda Expressions and Function Objects",
+        "Move Semantics (Lvalues and Rvalues)",
+        "Modern C++ Features (C++11, C++14, C++17, C++20 essentials)",
+        "Handling Multiple Inheritance Ambiguity"
+      ]
+    },
+    {
+      "stage_name": "Stage 4: Mastery & Specialization",
+      "focus": "Concurrency, Data Structures & Domain Application",
+      "sub_paths": [
+        {
+          "path": "Data Structures & Algorithms",
+          "technologies": ["Time & Space Complexity (mathcal{O}$ Notation)", "Implementing Linked Lists, Stacks, Queues", "Trees and Graphs (DFS, BFS)", "Dynamic Programming"]
+        },
+        {
+          "path": "Concurrency & Performance",
+          "technologies": ["Multithreading (std::thread)", "Mutexes and Locks", "Futures and Promises", "Atomic Operations"]
+        },
+        {
+          "path": "Game/Graphics Development",
+          "technologies": ["SDL/SFML/OpenGL Basics", "Game Loop Architecture", "Physics Integration"]
+        }
       ]
     }
   ]

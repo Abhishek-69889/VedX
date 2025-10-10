@@ -6,17 +6,26 @@ const RoadmapSection = () => {
 
   const items = [
     { title: 'Frontend', des: 'Complete roadmap to become a frontend expert.' },
-    { title: 'DSA', des: 'Step-by-step plan to master Data Structures & Algorithms.' },
+    { title: 'Company Wise DSA', des: 'Step-by-step plan to master Data Structures & Algorithms company wise.' },
+    { title: 'Detailed DSA', des: 'Detailed roadmap to master Data Structures & Algorithms.' },
     { title: 'C++', des: 'Structured roadmap to learn C++ for programming and DSA.' },
+    { title: 'Python', des: 'Structured roadmap to learn Python for programming and DSA.' },
+    { title: 'GSAP', des: 'Structured roadmap to master' },
   ];
 
   const handleClick = (title) => {
     if (title === 'Frontend') {
       window.open('https://fronttrack.netlify.app/', '_blank');
-    } else if (title === 'DSA') {
+    } else if (title === 'Company Wise DSA') {
       navigate('/DSA');
     } else if (title === 'C++') {
       navigate('/cpp-roadmap');
+    } else if (title === 'Python') {
+      navigate('/python-roadmap');
+    }else if (title === 'Detailed DSA') {
+      navigate('/PythonDSA');
+    }else if(title==='GSAP'){
+      navigate('/gsap')
     }
   };
 

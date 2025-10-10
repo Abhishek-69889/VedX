@@ -1,0 +1,156 @@
+{
+  "practice_roadmap_title": "GSAP Animation Mastery Practice Tasks (Consolidated) 🚀",
+  "storage_key": "gsapPracticeTasksStates",
+  "phases": [
+    {
+      "phase_name": "Phase 1: GSAP Fundamentals (The Building Blocks)",
+      "goal": "Build confidence with GSAP core syntax, transforms, and basic sequencing.",
+      "tasks": [
+        {
+          "id": 1,
+          "topic": "Syntax & Setup",
+          "task": "Set up a project using both CDN and NPM. Create a box that moves 200px right using gsap.to() and have text slide in from the top using gsap.from() on page load."
+        },
+        {
+          "id": 2,
+          "topic": "Core Properties & Targeting",
+          "task": "Animate a logo (or image) using textx, texty, textscale, and textrotate. Simultaneously animate a button using gsap.fromTo() to fade in and change its background-color and text color."
+        },
+        {
+          "id": 3,
+          "topic": "Transforms & Easing",
+          "task": "Animate an element’s xPercent and transformOrigin to create a rotation pivot effect. Create the exact same animation using textBounce and textElastic eases to see the difference."
+        },
+        {
+          "id": 4,
+          "topic": "Stagger and Loops",
+          "task": "Animate a grid of multiple text elements/cards, making them enter the screen with a stagger effect. Then, make a chosen element loop infinitely with a yoyo: true pulsating effect (scale up/down)."
+        },
+        {
+          "id": 5,
+          "topic": "Performance & Control",
+          "task": "Compare the performance of a texttop/left CSS animation versus a textx/y GSAP animation. Use textgsap.set() to instantly hide an element that should appear later in the sequence."
+        },
+        {
+          "mini_project": "Create a 'Welcome Section' animation: Text fades in, a button slides in and changes color, and an image zooms in, all using textgsap.from(), textgsap.fromTo() and textease: 'expo.out'."
+        }
+      ]
+    },
+    {
+      "phase_name": "Phase 2: Intermediate Level (Timelines, Control, and Utilities)",
+      "goal": "Learn control, sequencing, dynamic behavior, and responsive design.",
+      "tasks": [
+        {
+          "id": 1,
+          "topic": "Timeline & Sequencing",
+          "task": "Create a single textgsap.timeline() that sequences an animation: heading -> subheading -> button. Use '-=0.5' to create a smooth overlap between the heading and subheading."
+        },
+        {
+          "id": 2,
+          "topic": "Timeline Control & Callbacks",
+          "task": "Add Play, Pause, and Reverse buttons to control the timeline created in Task 1. Use the onComplete callback to fire an alert message or trigger a second animation when the main timeline finishes."
+        },
+        {
+          "id": 3,
+          "topic": "Advanced Stagger & Utilities",
+          "task": "Animate a grid of cards using a complex stagger direction (e.g., 'from: center'). Use gsap.utils.random() to give each card a unique background color or starting textx position."
+        },
+        {
+          "id": 4,
+          "topic": "Responsive Control",
+          "task": "Using gsap.matchMedia(), create one complex texttimeline for desktop and a much simpler, faster texttimeline (e.g., only textopacity change) for mobile screens."
+        },
+        {
+          "mini_project": "Build a 'Landing Page Intro' using Nested Timelines—one main timeline controls a timeline for text and a separate one for an image sequence. Use Labels to clearly mark sections."
+        }
+      ]
+    },
+    {
+      "phase_name": "Phase 3: Advanced Level (Scroll, SVG, Motion, and Plugins)",
+      "goal": "Master ScrollTrigger, MotionPath, and powerful text/SVG effects.",
+      "tasks": [
+        {
+          "id": 1,
+          "topic": "Pinning & Scrubbing",
+          "task": "Create a section that pins a content block. While pinned, use scrub: true to scroll-sync an element's movement from one side of the screen to the other AND change the background color of the pinned area."
+        },
+        {
+          "id": 2,
+          "topic": "Scroll-Linked Storytelling",
+          "task": "Create a timeline with at least three different tweens (e.g., scale, rotate, opacity). Link this entire timeline to the scroll using scrub to create a sequential, scroll-based narrative."
+        },
+        {
+          "id": 3,
+          "topic": "SVG Animation",
+          "task": "Draw a simple SVG path. Use textstroke-dasharray and textstroke-dashoffset with gsap.to() to create a handwriting or drawing reveal effect. Then, use the MotionPath Plugin to animate a small dot along that same path."
+        },
+        {
+          "id": 4,
+          "topic": "Text Reveal & Callbacks",
+          "task": "Implement SplitText Plugin (or use manual span splitting) to create a text reveal animation that shows each letter sequentially. Use a ScrollTrigger callback (textonEnter) to initiate this text reveal only when the element scrolls into view."
+        },
+        {
+          "mini_project": "Build a 'Product Feature Showcase' section: Pin the main product image. Use multiple ScrollTrigger textstart/end points to sequentially reveal feature descriptions as the user scrolls down next to the pinned image."
+        }
+      ]
+    },
+    {
+      "phase_name": "Phase 4: Framework Integration and Utilities (Pro Workflows)",
+      "goal": "Integrate GSAP robustly with modern frameworks and optimization tools.",
+      "tasks": [
+        {
+          "id": 1,
+          "topic": "GSAP in React/Next.js",
+          "task": "Build a reusable React component that animates on mount using textuseRef and textuseLayoutEffect. Ensure safe handling of GSAP in an SSR environment (Next.js context)."
+        },
+        {
+          "id": 2,
+          "topic": "Flip & Draggable Plugin",
+          "task": "Create a grid of four cards. On button click, change their textCSS grid layout properties. Use the Flip Plugin to smoothly animate the cards from their old positions to the new ones. Separately, use the Draggable Plugin to make a simple image carousel with inertia."
+        },
+        {
+          "id": 3,
+          "topic": "Advanced Scroll & Optimization",
+          "task": "Integrate Locomotive Scroll (or Lenis) and use ScrollTrigger's scrollerProxy to restore scroll-based animations. Implement gsap.batch() on a set of elements and use the will-change property for a performance boost."
+        },
+        {
+          "id": 4,
+          "topic": "Global Configs & Utilities",
+          "task": "Use gsap.defaults() to set a global textduration and textease for all tweens. Implement gsap.utils.wrap() to create a seamless, continuous textx movement for a looping background element."
+        },
+        {
+          "mini_project": "Build a 'React GSAP Portfolio Hero Section' where the main heading and CTA button animate in on mount. Use textgsap.defaults() to control the speed and ensure all code is properly cleaned up on unmount."
+        }
+      ]
+    },
+    {
+      "phase_name": "Phase 5: Master Level (Pro Animations & Real Projects)",
+      "goal": "Create full, real-world interactive and high-performance GSAP experiences.",
+      "tasks": [
+        {
+          "id": 1,
+          "topic": "Landing Page/Menu Animation",
+          "task": "Create a full Intro Loader animation (text stagger -> fade out). Animate a full-screen Menu Overlay opening and closing using textgsap.from() and textgsap.to() respectively."
+        },
+        {
+          "id": 2,
+          "topic": "Scroll Storytelling & Parallax",
+          "task": "Build a multi-section storytelling site using ScrollTrigger for section-by-section reveals. Include a textparallax section where multiple layers move at different speeds."
+        },
+        {
+          "id": 3,
+          "topic": "3D & Interactive Motion",
+          "task": "Create a textmagnetic button hover effect using textgsap.to() and mouse coordinates. Build a card that flips on hover using CSS 3D transforms (textrotateY) controlled by GSAP."
+        },
+        {
+          "id": 4,
+          "topic": "Pro Debugging & Integration",
+          "task": "Integrate GSDevTools (if you have the license) to visually debug a complex textScrollTrigger timeline. Explore the possibility of animating a textThree.js object's rotation or position with GSAP."
+        },
+        {
+          "final_project": "Build and deploy a full 'GSAP Interactive Portfolio' including intro loader, hero text animation, ScrollTrigger sections, magnetic cursor, and animated menu. Focus on flawless performance."
+        }
+      ]
+    }
+  ]
+}

@@ -1,32 +1,25 @@
 import React, { useEffect, useState, useMemo } from 'react';
-// Note: File name 'CppData.json' is preserved as requested
-import roadmapRaw from './CppData.json';
+// Import the external JSON file
+import roadmapRaw from './PythonDsaData.json'; 
 
 // --- Data Preparation Logic ---
 
-// Flattens all topics (including specialization paths) into a single array for state key initialization.
+// Flattens all topics into a single array for state key initialization.
 const getAllTopics = (data) => {
   const allTopics = [];
-  data.stages.forEach(stage => {
-    if (stage.topics) {
-      allTopics.push(...stage.topics);
-    }
-    if (stage.sub_paths) {
-      stage.sub_paths.forEach(path => {
-        // Create a composite key for specialization topics: "Path: Technology"
-        allTopics.push(...path.technologies.map(tech => `${path.path}: ${tech}`));
-      });
+  data.phases.forEach(phase => {
+    if (phase.topics) {
+      allTopics.push(...phase.topics);
     }
   });
-  // Use Set to ensure unique keys, then convert back to Array
   return Array.from(new Set(allTopics));
 };
 
 // --- React Component ---
 
-const Cpp = () => {
-  const storageKey = 'cppRoadmapCheckboxStates'; // Use a specific key
-
+const PythonDsaRoadmap = () => {
+  const storageKey = roadmapRaw.storage_key || 'defaultDSACheckboxStates';
+  
   // Memoize the list of all topics from the imported JSON
   const allTopics = useMemo(() => getAllTopics(roadmapRaw), []);
 
@@ -34,7 +27,7 @@ const Cpp = () => {
   const getInitialState = () => {
     const saved = localStorage.getItem(storageKey);
     if (saved) return JSON.parse(saved);
-
+    
     // Initialize state with all topics set to false
     return allTopics.reduce((acc, topic) => {
       acc[topic] = false;
@@ -49,7 +42,7 @@ const Cpp = () => {
     localStorage.setItem(storageKey, JSON.stringify(checkedItems));
   }, [checkedItems]);
 
-  // Use the unique topic string as the key to toggle the state
+  // Function to toggle the checkbox state
   const toggleCheckbox = (topicKey) => {
     setCheckedItems(prev => ({
       ...prev,
@@ -70,7 +63,7 @@ const Cpp = () => {
               checked={checkedItems[topicKey] || false}
               onChange={() => toggleCheckbox(topicKey)}
               // Styling for dark theme consistency
-              className="mt-1 h-4 w-4 accent-blue-600 dark:accent-cyan-400 flex-shrink-0" 
+              className="mt-1 h-4 w-4 accent-blue-600 dark:accent-purple-400 flex-shrink-0" 
             />
             <label 
               // Apply line-through for completed items
@@ -86,43 +79,28 @@ const Cpp = () => {
   );
 
   return (
-    // Update div styling for a more structured look
     <div className="min-h-screen dark:bg-[#0e0e0e] flex items-center justify-center p-4">
       <div className="w-full max-w-4xl dark:bg-[#1f1f1f] p-8 rounded-xl shadow-2xl space-y-8 border border-[#2c2c2c]">
 
         {/* Title */}
-        <h1 className="text-4xl font-extrabold text-center text-black dark:text-cyan-400 border-b-2 border-cyan-400 pb-3">
-          {roadmapRaw.roadmap_title || "C++ Roadmap"}
+        <h1 className="text-4xl font-extrabold text-center text-black dark:text-purple-400 border-b-2 border-purple-400 pb-3">
+          {roadmapRaw.roadmap_title}
         </h1>
 
-        {/* Stages Mapping */}
-        {roadmapRaw.stages.map((stage, stageIndex) => (
-          <div key={stageIndex} className="bg-[#2a2a2a] p-6 rounded-lg shadow-md space-y-4">
-            <h2 className="text-2xl font-semibold dark:text-white border-l-4 border-cyan-400 pl-3">
-              {stage.stage_name}
+        {/* Phases Mapping */}
+        {roadmapRaw.phases.map((phase, phaseIndex) => (
+          <div key={phaseIndex} className="bg-[#2a2a2a] p-6 rounded-lg shadow-md space-y-4">
+            <h2 className="text-2xl font-semibold dark:text-white border-l-4 border-purple-400 pl-3">
+              {phase.phase_name}
             </h2>
             <p className="text-sm italic dark:text-gray-400 ml-4">
-              Focus: {stage.focus}
+              Focus: {phase.focus}
             </p>
-
-            {/* Standard Topics List */}
-            {stage.topics && (
+            
+            {/* Topics List */}
+            {phase.topics && (
               <div className="ml-4">
-                {renderTopics(stage.topics)}
-              </div>
-            )}
-
-            {/* Specialization Sub-Paths */}
-            {stage.sub_paths && (
-              <div className="ml-4 space-y-4 pt-2">
-                <h3 className="text-xl font-medium dark:text-gray-100">Specialization Paths:</h3>
-                {stage.sub_paths.map((path, pathIndex) => (
-                  <div key={pathIndex} className="pl-4 border-l-2 border-gray-600">
-                    <h4 className="text-lg font-semibold dark:text-cyan-300 mb-2">{path.path}</h4>
-                    {/* Render technologies, using a composite key: "Path: Technology" */}
-                    {renderTopics(path.technologies.map(tech => `${path.path}: ${tech}`))}
-                  </div>
-                ))}
+                {renderTopics(phase.topics)}
               </div>
             )}
 
@@ -133,4 +111,4 @@ const Cpp = () => {
   );
 };
 
-export default Cpp;
+export default PythonDsaRoadmap;
